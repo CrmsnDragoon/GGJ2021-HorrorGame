@@ -16,9 +16,9 @@ public class ItemListScriptableObject : ScriptableObject
         for (var i = 0; i < itemTypes.Length; i++)
         {
             var sprite = new ItemSprites();
-            sprite.sprite = itemSprites[i];;
+            sprite.Sprite = itemSprites[i];;
             sprite.ItemType = itemTypes[i];
-            sprite.description = itemDescriptions[i];
+            sprite.Description = itemDescriptions[i];
             list[itemTypes[i]] = sprite;
         }
         return list;

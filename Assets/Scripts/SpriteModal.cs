@@ -3,7 +3,7 @@ using UnityEngine.UI;
 
 public class SpriteModal : MonoBehaviour
 {
-    [SerializeField] private Sprite itemSprite;
+    [SerializeField] private SpriteRenderer itemSprite;
     [SerializeField] private Text itemText;
 
     public void DisplayModal(ItemType item)
