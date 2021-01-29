@@ -38,7 +38,7 @@ public class mainUI : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Global.Health == fail)
+        if (Global.Health <= fail)
         {
             StartCoroutine(youDied());
         }
@@ -63,6 +63,7 @@ public class mainUI : MonoBehaviour
         gameObject.GetComponent<SpriteRenderer>().enabled = false;
         // died.SetActive(true);
         yield return new WaitForSeconds(2);
+        Global.Health = 2;
         SceneManager.LoadScene(0);
     }
 

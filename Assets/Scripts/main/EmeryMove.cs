@@ -4,7 +4,9 @@ using UnityEngine;
 
 public class EmeryMove : MonoBehaviour
 {
+    
     public float speed;
+    public Animator animator;
 
     private Rigidbody2D rb;
     private Vector2 moveVelocity;
@@ -19,6 +21,9 @@ public class EmeryMove : MonoBehaviour
     {
         Vector2 moveInput = new Vector2(Input.GetAxis("Horizontal"), Input.GetAxis("Vertical"));
         moveVelocity = moveInput.normalized * speed;
+        animator.SetFloat("Horizontal", moveVelocity.x);
+        animator.SetFloat("Vertical", moveVelocity.y);
+        animator.SetFloat("Speed", moveVelocity.sqrMagnitude);
 
     }
 
