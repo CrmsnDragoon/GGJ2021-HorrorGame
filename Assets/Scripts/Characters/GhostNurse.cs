@@ -2,10 +2,10 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class GhostBrother : MonoBehaviour
+public class GhostNurse : MonoBehaviour
 {
-  
-    public AudioSource growl;
+    public AudioSource happy;
+    public GameObject nurse2;
 
     void Start()
     {
@@ -16,9 +16,10 @@ public class GhostBrother : MonoBehaviour
     {
         if (other.gameObject.CompareTag("Player"))
         {
-            growl.Play();
-            Global.Health--;
+            happy.Play();
+            Global.Health++;
+            nurse2.SetActive(true);
+            gameObject.SetActive(false);
         }
     }
-
 }
