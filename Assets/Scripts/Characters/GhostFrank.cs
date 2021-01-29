@@ -5,7 +5,6 @@ using UnityEngine.UI;
 
 public class GhostFrank : MonoBehaviour
 {
-    public GameObject growlCaption;
     public GameObject FranksBros;
     public AudioSource growl;
 
@@ -18,17 +17,16 @@ public class GhostFrank : MonoBehaviour
     {
         if (other.gameObject.CompareTag("Player"))
         {
-            StartCoroutine(frankCallsBrothers());
+            growl.Play();
+            Global.Health--;
+            FranksBros.SetActive(true);
         }
     }
 
-    IEnumerator frankCallsBrothers()
-    {
-        growl.Play();
-        Global.Health--;
-        growlCaption.SetActive(true);
-        FranksBros.SetActive(true);
-        yield return new WaitForSeconds(1);
-        growlCaption.SetActive(false);
-    }
+   // IEnumerator frankCallsBrothers()
+  //  {
+        
+        //yield return new WaitForSeconds(1);
+
+  //  }
 }

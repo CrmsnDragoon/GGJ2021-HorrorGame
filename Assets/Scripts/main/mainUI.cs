@@ -63,7 +63,7 @@ public class mainUI : MonoBehaviour
         gameObject.GetComponent<SpriteRenderer>().enabled = false;
         // died.SetActive(true);
         yield return new WaitForSeconds(2);
-        SceneManager.LoadScene(2);
+        SceneManager.LoadScene(0);
     }
 
     public void UpdateTotals()
