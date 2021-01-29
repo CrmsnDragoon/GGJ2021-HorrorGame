@@ -1,5 +1,5 @@
-﻿using System.Collections;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
 
 public class Global 
@@ -15,5 +15,32 @@ public class Global
             mainUI.Instance.UpdateTotals();
         }
     }
+
+    static Dictionary<ItemType, ItemSprites> itemList;
     
+    public static Dictionary<ItemType, ItemSprites> GetItemList()
+    {
+        if (itemList == null)
+        {
+            var list = Resources.Load<ItemListScriptableObject>("");
+            //Load list scriptable object
+            itemList = list.ConstructList();
+        }
+
+        return itemList;
+    }
+}
+
+public enum ItemType
+{
+    Bow,
+    Crown,
+    Goat,
+    Locket
+}
+
+public struct ItemSprites
+{
+    public ItemType ItemType;
+    public Sprite sprite;
 }
