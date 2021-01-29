@@ -4,7 +4,8 @@ using UnityEngine;
 
 public class GhostMila2 : MonoBehaviour
 {
-    public GameObject MilaOff;
+    public SpriteRenderer MilaOff;
+    public GameObject screamCaption;
     public AudioSource Scream;
 
 
@@ -18,9 +19,17 @@ public class GhostMila2 : MonoBehaviour
     {
         if (other.gameObject.CompareTag("Player"))
         {
-            Scream.Play();
-            MilaOff.SetActive(false);
 
+            StartCoroutine(milaScreamMoment());
         }
+    }
+
+    IEnumerator milaScreamMoment()
+    {
+        Scream.Play();
+        screamCaption.SetActive(true);
+        MilaOff.enabled=false;
+        yield return new WaitForSeconds(1);
+        screamCaption.SetActive(false);
     }
 }

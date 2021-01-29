@@ -5,9 +5,12 @@ using UnityEngine;
 public class GhostMila : MonoBehaviour
 {
 
-    public GameObject MilaOff;
     public GameObject MilaOn;
+    public SpriteRenderer MilaOff;
+    public GameObject screamCaption;
     public AudioSource Scream;
+
+    private bool FiredOnce;
 
 
     void Start()
@@ -16,14 +19,24 @@ public class GhostMila : MonoBehaviour
     }
 
 
+
     void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.gameObject.CompareTag("Player"))
+        if (other.gameObject.CompareTag("Player") && !FiredOnce)
         {
-            Scream.Play();
-            MilaOn.SetActive(true);
-            MilaOff.SetActive(false);
-
+            FiredOnce = true;
+            StartCoroutine(milaScreamMoment());
         }
+    }
+
+    IEnumerator milaScreamMoment()
+    {
+        Scream.Play();
+        screamCaption.SetActive(true);
+        MilaOff.enabled = false;
+        yield return new WaitForSeconds(1);
+        screamCaption.SetActive(false);
+        MilaOn.SetActive(true);
+        gameObject.SetActive(false);
     }
 }
