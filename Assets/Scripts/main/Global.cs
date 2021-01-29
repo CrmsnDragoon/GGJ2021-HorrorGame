@@ -4,5 +4,16 @@ using UnityEngine;
 
 public class Global 
 {
-    public static int health = 2;
+    private static int _health = 2;
+
+    public static int Health
+    {
+        get => _health;
+        set
+        {
+            _health = value;
+            mainUI.Instance.UpdateTotals();
+        }
+    }
+    
 }

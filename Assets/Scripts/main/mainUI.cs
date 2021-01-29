@@ -1,38 +1,47 @@
-﻿using UnityEngine;
+﻿using System;
+using UnityEngine;
 using UnityEngine.UI;
 using System.Collections;
 using UnityEngine.SceneManagement;
 
 public class mainUI : MonoBehaviour
 {
+    private static mainUI _instance;
+
+    public static mainUI Instance { get { return _instance; } }
+
+    private void Awake()
+    {
+        if (_instance != null && _instance != this)
+        {
+            Destroy(this.gameObject);
+        } else {
+            _instance = this;
+        }
+    }
+    
     public Text healthText;
     public Image fadeblack;
     public Animator fadeanim;
     public int level;
 
     private float fail = 0;
-    private static int healthCount = Global.health;
 
-
+    
     // Start is called before the first frame update
     void Start()
     {
-        SetCountText();
+        UpdateTotals();
         GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (healthCount == fail)
+        if (Global.Health == fail)
         {
             StartCoroutine(youDied());
         }
-    }
-
-    void SetCountText()
-    {
-        healthText.text = healthCount.ToString();
     }
 
     IEnumerator Fading()
@@ -55,5 +64,10 @@ public class mainUI : MonoBehaviour
         // died.SetActive(true);
         yield return new WaitForSeconds(2);
         SceneManager.LoadScene(2);
+    }
+
+    public void UpdateTotals()
+    {
+        healthText.text = $"{Global.Health}";
     }
 }
