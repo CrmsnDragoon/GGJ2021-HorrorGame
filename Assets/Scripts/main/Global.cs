@@ -42,5 +42,6 @@ public enum ItemType
 public struct ItemSprites
 {
     public ItemType ItemType;
-    public Sprite sprite;
+    public Sprite Sprite;
+    public string Description;
 }
