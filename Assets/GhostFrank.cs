@@ -1,19 +1,13 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class GhostFrank : MonoBehaviour
 {
-    public Text healthText;
-    public Text keyText;
     public GameObject growlCaption;
     public GameObject FranksBros;
     public AudioSource growl;
-
-
-    private static int healthCount = Global.health;
-    private static int keyCount = Global.key;
-
 
     void Start()
     {
@@ -24,7 +18,6 @@ public class GhostFrank : MonoBehaviour
     {
         if (other.gameObject.CompareTag("Player"))
         {
-            SetCountText();
             StartCoroutine(frankCallsBrothers());
         }
     }
@@ -32,7 +25,7 @@ public class GhostFrank : MonoBehaviour
     IEnumerator frankCallsBrothers()
     {
         growl.Play();
-        Global.health--;
+        Global.Health--;
         growlCaption.SetActive(true);
         FranksBros.SetActive(true);
         yield return new WaitForSeconds(1);
