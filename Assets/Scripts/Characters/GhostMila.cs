@@ -4,10 +4,8 @@ using UnityEngine;
 
 public class GhostMila : MonoBehaviour
 {
-
     public GameObject MilaOn;
     public SpriteRenderer MilaOff;
-    public GameObject screamCaption;
     public AudioSource Scream;
 
     private bool FiredOnce;
@@ -17,8 +15,6 @@ public class GhostMila : MonoBehaviour
     {
         GetComponent<AudioSource>();
     }
-
-
 
     void OnTriggerEnter2D(Collider2D other)
     {
@@ -32,11 +28,13 @@ public class GhostMila : MonoBehaviour
     IEnumerator milaScreamMoment()
     {
         Scream.Play();
-        screamCaption.SetActive(true);
+        SubtitleController.Instance.ShowSubtitle("*Crackled Scream*", 1);
         MilaOff.enabled = false;
         yield return new WaitForSeconds(1);
-        screamCaption.SetActive(false);
-        MilaOn.SetActive(true);
+        if (MilaOn != null)
+        {
+            MilaOn.SetActive(true);
+        }
         gameObject.SetActive(false);
     }
 }
