@@ -1,0 +1,512 @@
+fileFormatVersion: 2
+guid: 7ddf84af374899e42947e302587ba620
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3341487132905874600
+    second: spritesheet_emery_SMALLER_0
+  - first:
+      213: 1728727491027957359
+    second: spritesheet_emery_SMALLER_1
+  - first:
+      213: -132197966328366069
+    second: spritesheet_emery_SMALLER_2
+  - first:
+      213: 3259946466768523766
+    second: spritesheet_emery_SMALLER_3
+  - first:
+      213: -4587707943840947029
+    second: spritesheet_emery_SMALLER_4
+  - first:
+      213: 4324846868934635432
+    second: spritesheet_emery_SMALLER_5
+  - first:
+      213: -2644490269728977538
+    second: spritesheet_emery_SMALLER_6
+  - first:
+      213: 5039472649665248703
+    second: spritesheet_emery_SMALLER_7
+  - first:
+      213: 3515848749390967696
+    second: spritesheet_emery_SMALLER_8
+  - first:
+      213: -2020584586975032735
+    second: spritesheet_emery_SMALLER_9
+  - first:
+      213: -528222301398638665
+    second: spritesheet_emery_SMALLER_10
+  - first:
+      213: -1494318000153021829
+    second: spritesheet_emery_SMALLER_11
+  - first:
+      213: 8213673111421897815
+    second: spritesheet_emery_SMALLER_12
+  - first:
+      213: 1540679044040515482
+    second: spritesheet_emery_SMALLER_13
+  - first:
+      213: -8093539131061618623
+    second: spritesheet_emery_SMALLER_14
+  - first:
+      213: -4709695569827789909
+    second: spritesheet_emery_SMALLER_15
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: spritesheet_emery_SMALLER_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 602.25
+        width: 131.25
+        height: 200.75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a4a46ae7d85f5e20800000000000000
+      internalID: 3341487132905874600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_emery_SMALLER_1
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 602.25
+        width: 131.25
+        height: 200.75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f667c207e7cadf710800000000000000
+      internalID: 1728727491027957359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_emery_SMALLER_2
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 602.25
+        width: 131.25
+        height: 200.75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0cf7f866a65a2ef0800000000000000
+      internalID: -132197966328366069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_emery_SMALLER_3
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 602.25
+        width: 131.25
+        height: 200.75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f117822a08ad3d20800000000000000
+      internalID: 3259946466768523766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_emery_SMALLER_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 402.25
+        width: 131.25
+        height: 200.75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba46f1a8eef2550c0800000000000000
+      internalID: -4587707943840947029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_emery_SMALLER_5
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 402.25
+        width: 131.25
+        height: 200.75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8af2fc23051f40c30800000000000000
+      internalID: 4324846868934635432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_emery_SMALLER_6
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 402.25
+        width: 131.25
+        height: 200.75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7dc3dc5c12ec4bd0800000000000000
+      internalID: -2644490269728977538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_emery_SMALLER_7
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 402.25
+        width: 131.25
+        height: 200.75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbdf792bcadcfe540800000000000000
+      internalID: 5039472649665248703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_emery_SMALLER_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 202.25
+        width: 131.25
+        height: 200.75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 093337f4fcdcac030800000000000000
+      internalID: 3515848749390967696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_emery_SMALLER_9
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 202.25
+        width: 131.25
+        height: 200.75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16a49be060175f3e0800000000000000
+      internalID: -2020584586975032735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_emery_SMALLER_10
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 202.25
+        width: 131.25
+        height: 200.75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bfd1b29d906ba8f0800000000000000
+      internalID: -528222301398638665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_emery_SMALLER_11
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 202.25
+        width: 131.25
+        height: 200.75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b72386332bd134be0800000000000000
+      internalID: -1494318000153021829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_emery_SMALLER_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2.25
+        width: 131.25
+        height: 200.75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75cca7b4d24dcf170800000000000000
+      internalID: 8213673111421897815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_emery_SMALLER_13
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 2.25
+        width: 131.25
+        height: 200.75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9f5cec7d67916510800000000000000
+      internalID: 1540679044040515482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_emery_SMALLER_14
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 2.25
+        width: 131.25
+        height: 200.75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 148395daa09fdaf80800000000000000
+      internalID: -8093539131061618623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_emery_SMALLER_15
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 2.25
+        width: 131.25
+        height: 200.75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba30f2015dcc3aeb0800000000000000
+      internalID: -4709695569827789909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
