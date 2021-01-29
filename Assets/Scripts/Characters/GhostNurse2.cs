@@ -4,11 +4,11 @@ using UnityEngine;
 
 public class GhostNurse2 : MonoBehaviour
 {
-    public AudioSource happy;
+   public AudioSource happy;
 
     void Start()
     {
-        GetComponent<AudioSource>();
+       GetComponent<AudioSource>();
     }
 
     void OnTriggerEnter2D(Collider2D other)
