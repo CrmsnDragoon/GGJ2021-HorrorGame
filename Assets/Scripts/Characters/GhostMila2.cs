@@ -5,7 +5,6 @@ using UnityEngine;
 public class GhostMila2 : MonoBehaviour
 {
     public SpriteRenderer MilaOff;
-    public GameObject screamCaption;
     public AudioSource Scream;
 
 
