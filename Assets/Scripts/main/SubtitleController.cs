@@ -1,6 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.UI;
 
 public class SubtitleController : MonoBehaviour {
@@ -18,10 +16,33 @@ public class SubtitleController : MonoBehaviour {
         }
     }
 
-    [SerializeField] private Text SubtitleText;
+    [SerializeField] private Text subtitleText;
 
-    public void ShowSubtitle(string subtitleText)
+    private float _countdown = 0;
+    
+    private void Update()
     {
-        
+        if (_countdown > 0)
+        {
+            _countdown -= Time.deltaTime;
+
+            if (_countdown < 0)
+            {
+                subtitleText.gameObject.SetActive(false);
+            }
+        }
+    }
+
+    public void ShowSubtitle(string text, float seconds)
+    {
+        subtitleText.gameObject.SetActive(true);
+        subtitleText.text = text;
+        _countdown = seconds;
+    }
+
+    public void HideSubtitle()
+    {
+        subtitleText.gameObject.SetActive(false);
+        _countdown = -1;
     }
 }
