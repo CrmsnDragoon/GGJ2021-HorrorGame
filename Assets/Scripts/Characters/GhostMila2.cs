@@ -19,7 +19,6 @@ public class GhostMila2 : MonoBehaviour
     {
         if (other.gameObject.CompareTag("Player"))
         {
-
             StartCoroutine(milaScreamMoment());
         }
     }
@@ -27,9 +26,9 @@ public class GhostMila2 : MonoBehaviour
     IEnumerator milaScreamMoment()
     {
         Scream.Play();
-        screamCaption.SetActive(true);
+        SubtitleController.Instance.ShowSubtitle("*Crackled Scream*",1);
         MilaOff.enabled=false;
         yield return new WaitForSeconds(1);
-        screamCaption.SetActive(false);
+        gameObject.SetActive(false);
     }
 }
