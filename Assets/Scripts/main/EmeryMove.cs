@@ -10,11 +10,13 @@ public class EmeryMove : MonoBehaviour
 
     private Rigidbody2D rb;
     private Vector2 moveVelocity;
-
+    
+    [SerializeField] private int StartingHP;
+    
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
-
+        Global.Health = StartingHP;
     }
 
     void Update()

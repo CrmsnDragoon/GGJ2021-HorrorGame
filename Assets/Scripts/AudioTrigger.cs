@@ -8,11 +8,6 @@ public class AudioTrigger : MonoBehaviour
 
     private bool soundPlayed;
 
-    void Start()
-    {
-        
-    }
-
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (soundPlayed == true)
@@ -21,6 +16,10 @@ public class AudioTrigger : MonoBehaviour
         }
         soundTrigger.Play();
         soundPlayed = true;
+    }
 
+    public void ResetTrigger()
+    {
+        soundPlayed = false;
     }
 }
