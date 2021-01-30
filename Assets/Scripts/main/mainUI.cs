@@ -1,5 +1,4 @@
-﻿using System;
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.UI;
 using System.Collections;
 using UnityEngine.SceneManagement;
@@ -62,7 +61,7 @@ public class mainUI : MonoBehaviour
         gameObject.GetComponent<SpriteRenderer>().enabled = false;
         // died.SetActive(true);
         yield return new WaitForSeconds(2);
-        Global.Health = 2;
+        Global.Reset();
         SceneManager.LoadScene(0);
     }
 
