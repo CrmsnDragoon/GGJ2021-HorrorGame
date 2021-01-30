@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 8391121394311067357}
   - component: {fileID: 8391121394311067358}
   - component: {fileID: 4035442444433335996}
+  - component: {fileID: 4296627864946224091}
   m_Layer: 0
   m_Name: Mila1
   m_TagString: Untagged
@@ -75,7 +76,8 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 2
-  m_Sprite: {fileID: 21300000, guid: 881d857c1bdfeb24892c9aaa5b415c4b, type: 3}
+  m_Sprite: {fileID: 6617409894691248908, guid: fd5ff3e159c1f2f4882af2331acc09d5,
+    type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -103,7 +105,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 40.51207, y: 52.879997}
+    oldSize: {x: 32.1875, y: 40.625}
     newSize: {x: 40.51207, y: 52.879997}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -178,7 +180,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 40.51207, y: 52.879997}
+    oldSize: {x: 32.1875, y: 40.625}
     newSize: {x: 40.51207, y: 52.879997}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -187,6 +189,25 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 40.51207, y: 52.879997}
   m_EdgeRadius: 0
+--- !u!95 &4296627864946224091
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8391121394311067347}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 013944baacf3c9c4389127567fa5f9ed, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &8391121394957111612
 GameObject:
   m_ObjectHideFlags: 0
@@ -201,6 +222,7 @@ GameObject:
   - component: {fileID: 8391121394957111610}
   - component: {fileID: 8391121394957111614}
   - component: {fileID: 8391121394957111615}
+  - component: {fileID: 2613565080690457501}
   m_Layer: 0
   m_Name: Mila3
   m_TagString: Untagged
@@ -346,6 +368,25 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
+--- !u!95 &2613565080690457501
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8391121394957111612}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 013944baacf3c9c4389127567fa5f9ed, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &8391121395369670678
 GameObject:
   m_ObjectHideFlags: 0
@@ -491,6 +532,7 @@ GameObject:
   - component: {fileID: 8391121395383869581}
   - component: {fileID: 8391121395383869583}
   - component: {fileID: 8391121395383869578}
+  - component: {fileID: 1196972699239298442}
   m_Layer: 0
   m_Name: Mila2
   m_TagString: Untagged
@@ -663,3 +705,22 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 12.593106, y: 18.960918}
   m_EdgeRadius: 0
+--- !u!95 &1196972699239298442
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8391121395383869571}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 013944baacf3c9c4389127567fa5f9ed, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
