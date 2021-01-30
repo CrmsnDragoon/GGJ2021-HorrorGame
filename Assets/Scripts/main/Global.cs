@@ -15,6 +15,8 @@ public class Global
             mainUI.Instance.UpdateTotals();
         }
     }
+    
+    public static bool EmeryInputBlocked { get; set; }
 
     static Dictionary<ItemType, ItemSprites> itemList;
     

@@ -17,6 +17,7 @@ public class EmeryMove : MonoBehaviour
     {
         rb = GetComponent<Rigidbody2D>();
         Global.Health = StartingHP;
+        Global.EmeryInputBlocked = false;
     }
 
     void Update()
@@ -31,7 +32,9 @@ public class EmeryMove : MonoBehaviour
 
     void FixedUpdate()
     {
-        rb.MovePosition(rb.position + moveVelocity * Time.fixedDeltaTime);
-
+        if (!Global.EmeryInputBlocked)
+        {
+            rb.MovePosition(rb.position + moveVelocity * Time.fixedDeltaTime);
+        }
     }
 }
