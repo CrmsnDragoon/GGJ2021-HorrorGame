@@ -10,12 +10,6 @@ public class GhostMila : MonoBehaviour
 
     private bool FiredOnce;
 
-
-    void Start()
-    {
-        GetComponent<AudioSource>();
-    }
-
     void OnTriggerEnter2D(Collider2D other)
     {
         if (other.gameObject.CompareTag("Player") && !FiredOnce)

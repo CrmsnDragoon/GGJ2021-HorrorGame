@@ -1,25 +1,57 @@
 ﻿using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class GhostSister : MonoBehaviour
 {
-    public AudioSource goAway;
-    public GameObject sister1;
+    public AudioSource OnCollisionSFX;
+    public AudioTrigger audioTrigger;
 
+    public Vector3[] positions = new Vector3[1];
+
+    [SerializeField] private int currentPositionIndex;
+
+    private SpriteRenderer _spriteRenderer;
+    private BoxCollider2D _boxCollider;
+    
     void Start()
     {
-        GetComponent<AudioSource>();
+        //Reset position
+        currentPositionIndex = 0;
+        TryGetComponent(out _spriteRenderer);
+        TryGetComponent(out _boxCollider);
     }
 
     void OnTriggerEnter2D(Collider2D other)
     {
         if (other.gameObject.CompareTag("Player"))
         {
-            goAway.Play();
+            OnCollisionSFX.Play();
             Global.Health--;
-            sister1.SetActive(true);
-            gameObject.SetActive(false);
+            MoveToNextPosition();
         }
+    }
+
+    void MoveToNextPosition()
+    {
+        //Start at starting position, then move to next position,
+        //if we are out of positions, disable character
+        if (currentPositionIndex < positions.Length)
+        {
+            transform.position = positions[currentPositionIndex];
+            audioTrigger.ResetTrigger();
+        }
+        else
+        {
+            StartCoroutine(StartRemoval());
+        }
+        currentPositionIndex++;
+    }
+
+    private IEnumerator StartRemoval()
+    {
+        _spriteRenderer.enabled = false;
+        _boxCollider.enabled = false;
+        yield return new WaitForSeconds(1.5f);
+        gameObject.SetActive(false);
     }
 }

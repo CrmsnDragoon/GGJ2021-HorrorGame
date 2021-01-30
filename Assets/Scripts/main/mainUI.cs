@@ -32,7 +32,6 @@ public class mainUI : MonoBehaviour
     void Start()
     {
         UpdateTotals();
-        GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
