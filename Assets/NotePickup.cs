@@ -10,6 +10,7 @@ public class NotePickup : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
+        if (!other.gameObject.CompareTag("Player")) return;
         this.gameObject.SetActive(false);
         Notes.Instance.ShowNote(NoteIndex);
     }

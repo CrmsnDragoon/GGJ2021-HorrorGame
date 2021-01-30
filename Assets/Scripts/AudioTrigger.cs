@@ -14,6 +14,7 @@ public class AudioTrigger : MonoBehaviour
         {
             return;
         }
+        if (!collision.gameObject.CompareTag("Player")) return;
         soundTrigger.Play();
         soundPlayed = true;
     }
