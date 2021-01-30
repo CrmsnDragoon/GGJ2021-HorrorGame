@@ -11,7 +11,7 @@ public class EmeryMove : MonoBehaviour
     private Rigidbody2D rb;
     private Vector2 moveVelocity;
     
-    [SerializeField] private int StartingHP;
+    [SerializeField] private int StartingHP = 5;
     
     void Start()
     {
