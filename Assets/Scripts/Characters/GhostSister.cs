@@ -38,7 +38,6 @@ public class GhostSister : MonoBehaviour
         if (currentPositionIndex < positions.Length)
         {
             transform.position = positions[currentPositionIndex];
-            audioTrigger.ResetTrigger();
         }
         else
         {
