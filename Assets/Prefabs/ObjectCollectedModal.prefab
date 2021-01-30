@@ -49,7 +49,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7df0c1e4b8d1da749a806a466250e696, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemSprite: {fileID: 0}
+  itemSprite: {fileID: 3648731319816200513}
   itemText: {fileID: 5208495849439008590}
 --- !u!1 &1408357757637809219
 GameObject:
@@ -409,7 +409,7 @@ RectTransform:
   m_GameObject: {fileID: 7194612497532248199}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.25, y: 0.25, z: 1}
   m_Children: []
   m_Father: {fileID: 8021008221271359214}
   m_RootOrder: 1
@@ -417,7 +417,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: -141, y: 7.7817993}
-  m_SizeDelta: {x: 256, y: 256}
+  m_SizeDelta: {x: 800, y: 600}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &3648731319816200513
 MonoBehaviour:

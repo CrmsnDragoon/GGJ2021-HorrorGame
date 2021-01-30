@@ -1,6 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
+using UnityEngine.UIElements;
 
 public class Global 
 {
@@ -16,10 +17,14 @@ public class Global
         }
     }
     
-    public static bool EmeryInputBlocked { get; set; }
 
     static Dictionary<ItemType, ItemSprites> itemList;
-    
+    private static bool inputBlocked;
+    public static bool EmeryInputBlocked
+    {
+        get => inputBlocked;
+    }
+
     public static Dictionary<ItemType, ItemSprites> GetItemList()
     {
         if (itemList == null)
@@ -31,6 +36,17 @@ public class Global
 
         return itemList;
     }
+
+    public static void BlockInput()
+    {
+        inputBlocked = true;
+    }
+
+    public static void UnblockInput()
+    {
+        inputBlocked = false;
+    }
+    
 }
 
 public enum ItemType

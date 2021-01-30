@@ -16,9 +16,10 @@ public class SpriteModal : MonoBehaviour
         } else {
             _instance = this;
         }
+        this.gameObject.SetActive(false);
     }
     #endregion
-    [SerializeField] private SpriteRenderer itemSprite;
+    [SerializeField] private Image itemSprite;
     [SerializeField] private Text itemText;
 
     public void DisplayModal(ItemType item)
@@ -27,12 +28,12 @@ public class SpriteModal : MonoBehaviour
         itemText.text = list[item].Description;
         itemSprite.sprite = list[item].Sprite;
         gameObject.SetActive(true);
-        Global.EmeryInputBlocked = true;
+        Global.BlockInput();
     }
 
     public void HideModal()
     {
-        Global.EmeryInputBlocked = false;
+        Global.UnblockInput();
         gameObject.SetActive(false);
     }
 }
