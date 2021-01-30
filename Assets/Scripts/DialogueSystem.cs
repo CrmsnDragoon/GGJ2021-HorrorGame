@@ -20,6 +20,9 @@ public class DialogueSystem : MonoBehaviour
         this.gameObject.SetActive(false);
     }
     #endregion
-    
-    
+
+    public void ShowDialogue(string dialogueToDisplay)
+    {
+        throw new System.NotImplementedException();
+    }
 }
