@@ -26,11 +26,18 @@ public class mainUI : MonoBehaviour
 
     private float fail = 0;
 
+    public ItemListScriptableObject itemList;
+
     
     // Start is called before the first frame update
     void Start()
     {
         UpdateTotals();
+        //For WebGL, we may not have access to the Resources Folder
+        if(itemList != null) 
+        {
+            Global.SetItemList(itemList);
+        }
     }
 
     // Update is called once per frame

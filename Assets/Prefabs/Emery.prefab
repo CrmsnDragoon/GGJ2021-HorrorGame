@@ -184,3 +184,4 @@ MonoBehaviour:
   fadeblack: {fileID: 0}
   fadeanim: {fileID: 0}
   level: 0
+  itemList: {fileID: 11400000, guid: 67efcf2b627d155438e60f1b85ca0ecc, type: 2}
