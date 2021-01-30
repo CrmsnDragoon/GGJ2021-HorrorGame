@@ -215,7 +215,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4695143022364289177}
-  - component: {fileID: 4695143022364289176}
+  - component: {fileID: 6607489674340490040}
   m_Layer: 5
   m_Name: Level Loader
   m_TagString: Untagged
@@ -243,7 +243,7 @@ RectTransform:
   m_AnchoredPosition: {x: 450, y: 300}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &4695143022364289176
+--- !u!114 &6607489674340490040
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -252,7 +252,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 4695143022364289178}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ed72aa968d082c640acffbc5fba5bbe0, type: 3}
+  m_Script: {fileID: 11500000, guid: 24333fe55e4645e4cae49945cd9318eb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   fadeblack: {fileID: 4695143020845107316}

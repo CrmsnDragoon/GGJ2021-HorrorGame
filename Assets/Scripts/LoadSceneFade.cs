@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
-public class LoadSceneOne : MonoBehaviour
+public class LoadSceneFade : MonoBehaviour
 {
     public Image fadeblack;
     public Animator fadeanim;
