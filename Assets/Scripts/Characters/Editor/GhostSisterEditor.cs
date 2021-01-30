@@ -10,6 +10,7 @@ public class GhostSisterEditor :Editor
         var sister = target as GhostSister;
         if (sister != null)
         {
+            Undo.RecordObject(sister,"Sister Agatha teleport Positions");
             for (var index = 0; index < sister.positions.Length; index++)
             {
                 var position = sister.positions[index];
