@@ -22,7 +22,7 @@ public class Global
     {
         if (itemList == null)
         {
-            var list = Resources.Load<ItemListScriptableObject>("");
+            var list = Resources.Load<ItemListScriptableObject>("ItemList");
             //Load list scriptable object
             itemList = list.ConstructList();
         }

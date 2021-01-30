@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 7964232900455486058}
   - component: {fileID: 5527249985883119395}
   - component: {fileID: 7964232900455486059}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: SisterAgatha
   m_TagString: Untagged
   m_Icon: {fileID: 0}

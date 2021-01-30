@@ -8,8 +8,9 @@ public class SpriteModal : MonoBehaviour
 
     public void DisplayModal(ItemType item)
     {
-
         var list = Global.GetItemList();
+        itemText.text = list[item].Description;
+        itemSprite.sprite = list[item].Sprite;
         gameObject.SetActive(true);
     }
 
