@@ -1,6 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class EnemyFollowTwo : MonoBehaviour
 {
@@ -8,13 +6,19 @@ public class EnemyFollowTwo : MonoBehaviour
     public float speedFast;
     public AudioSource giggle;
 
+    public ItemListScriptableObject itemList;
+    
     private Transform target;
-
 
     // Start is called before the first frame update
     void Start()
     {
         target = GameObject.FindGameObjectWithTag("Player").GetComponent<Transform>();
+        //For WebGL, we may not have access to the Resources Folder
+        if(itemList != null) 
+        {
+            Global.SetItemList(itemList);
+        }
     }
 
     // Update is called once per frame
@@ -39,6 +43,4 @@ public class EnemyFollowTwo : MonoBehaviour
             giggle.Play();
         }
     }
-
-
 }

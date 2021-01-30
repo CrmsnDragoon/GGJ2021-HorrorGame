@@ -53,6 +53,11 @@ public class Global
         HasSimonsNote = false;
         UnblockInput();
     }
+
+    public static void SetItemList(ItemListScriptableObject itemListScriptableObject)
+    {
+        itemList = itemListScriptableObject.ConstructList();
+    }
 }
 
 public enum ItemType
