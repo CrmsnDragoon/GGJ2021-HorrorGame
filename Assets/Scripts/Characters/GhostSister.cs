@@ -15,7 +15,7 @@ public class GhostSister : MonoBehaviour
     [SerializeField] private int currentPositionIndex;
 
     private SpriteRenderer _spriteRenderer;
-    private BoxCollider2D _boxCollider;
+    private BoxCollider2D[] _boxColliders;
     private Transform _target;
     private bool _moveTowardsTarget;
     [SerializeField] private Animator animator;
@@ -26,7 +26,7 @@ public class GhostSister : MonoBehaviour
         //Reset position index and grab components.
         currentPositionIndex = 0;
         TryGetComponent(out _spriteRenderer);
-        TryGetComponent(out _boxCollider);
+        _boxColliders = GetComponents<BoxCollider2D>();
         if (animator == null && !TryGetComponent(out animator))
         {
             Debug.LogWarning($"Add an animator to {gameObject.name} to play a movement animation");
@@ -89,12 +89,16 @@ public class GhostSister : MonoBehaviour
             StartCoroutine(StartRemoval());
         }
         currentPositionIndex++;
+        _moveTowardsTarget = false;
     }
 
     private IEnumerator StartRemoval()
     {
         _spriteRenderer.enabled = false;
-        _boxCollider.enabled = false;
+        foreach (var boxCollider in _boxColliders)
+        {
+            boxCollider.enabled = false;
+        }
         yield return new WaitForSeconds(1.5f);
         gameObject.SetActive(false);
     }
