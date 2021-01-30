@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 8319123258896951845}
   - component: {fileID: 8319123258896951846}
   - component: {fileID: 8319123258896951847}
+  - component: {fileID: 4190331821057925074}
   m_Layer: 0
   m_Name: Lily1
   m_TagString: Untagged
@@ -73,7 +74,8 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 2
-  m_Sprite: {fileID: 21300000, guid: a58b4a28fd8b0fe449bae793b838a8e8, type: 3}
+  m_Sprite: {fileID: -4981970206696384613, guid: 21b55e58c2a30ee46a6175c51e88e5bb,
+    type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -101,7 +103,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 50.920002, y: 57.871346}
+    oldSize: {x: 36.57143, y: 43.57143}
     newSize: {x: 50.920002, y: 57.871346}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -124,6 +126,25 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   happy: {fileID: 8319123259129666562}
   nurse2: {fileID: 8319123260228967123}
+--- !u!95 &4190331821057925074
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8319123258896951841}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 0ef86b1df85777c4090ad14aeff420b8, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &8319123259129666588
 GameObject:
   m_ObjectHideFlags: 0
@@ -167,7 +188,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 56522fd603cd0ad4c851daa55fbb2089, type: 3}
+  m_audioClip: {fileID: 8300000, guid: f2747c5dd7117ca4797ea9f0cfc222a1, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -265,6 +286,7 @@ GameObject:
   - component: {fileID: 8319123260228967120}
   - component: {fileID: 8319123260228967121}
   - component: {fileID: 8319123260228967127}
+  - component: {fileID: 1020210192843370388}
   m_Layer: 0
   m_Name: Lily2
   m_TagString: Untagged
@@ -325,7 +347,8 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 2
-  m_Sprite: {fileID: 21300000, guid: a58b4a28fd8b0fe449bae793b838a8e8, type: 3}
+  m_Sprite: {fileID: -4981970206696384613, guid: 21b55e58c2a30ee46a6175c51e88e5bb,
+    type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -353,7 +376,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 50.920002, y: 57.871346}
+    oldSize: {x: 36.57143, y: 43.57143}
     newSize: {x: 50.920002, y: 57.871346}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -375,6 +398,25 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   happy: {fileID: 8319123259129666562}
+--- !u!95 &1020210192843370388
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8319123260228967123}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 0ef86b1df85777c4090ad14aeff420b8, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1001 &19154079643961330
 PrefabInstance:
   m_ObjectHideFlags: 0
