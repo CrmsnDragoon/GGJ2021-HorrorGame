@@ -21,6 +21,5 @@ public class NotePickup : MonoBehaviour
         this.gameObject.SetActive(false);
         Notes.Instance.ShowNote(NoteIndex);
         Global.HasSimonsNote = isSimonsNote;
-        pickUp.Play();
     }
 }
