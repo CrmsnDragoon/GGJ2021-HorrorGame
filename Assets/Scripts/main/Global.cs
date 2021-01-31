@@ -56,6 +56,8 @@ public class Global
         HasSimonsNote = false;
         TrinketScore = 0;
         UnblockInput();
+        CollectedNotes.Clear();
+        CollectedTrinkets.Clear();
     }
 
     public static void SetItemList(ItemListScriptableObject itemListScriptableObject)
