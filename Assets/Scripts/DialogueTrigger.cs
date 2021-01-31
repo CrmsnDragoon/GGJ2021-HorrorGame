@@ -6,6 +6,7 @@ public class DialogueTrigger : MonoBehaviour
 {
     [FormerlySerializedAs("DialoguesToDisplay")] 
     [SerializeField] private string[] dialoguesToDisplay;
+    [SerializeField] private  Sprite[] spritePerLine;
     [SerializeField] private bool repeatable = false;
     [SerializeField] private bool dialogueShown = false;
     private void OnTriggerEnter2D(Collider2D other)
@@ -14,7 +15,7 @@ public class DialogueTrigger : MonoBehaviour
         gameObject.SetActive(false);
         if (!dialogueShown || repeatable){
             dialogueShown = true;
-            DialogueSystem.Instance.ShowDialogue(dialoguesToDisplay);
+            DialogueSystem.Instance.ShowDialogue(dialoguesToDisplay, spritePerLine);
         }
     }
 }

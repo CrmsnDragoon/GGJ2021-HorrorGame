@@ -33,13 +33,13 @@ public class DialogueSystem : MonoBehaviour
     #endregion
 
     [SerializeField] private Text textBox;
+    [SerializeField] private SpriteRenderer spriteRenderer;
     private float lineSpeed = 0.3f;
     private float characterTimer = 0; 
     private float currentLineIndex;
     private string currentLine;
     private int dialogLineIndex;
     private string[] currentDialogueLines;
-    public Sprite[] spritePerLine;
     
     enum DialogueState
     {
@@ -54,12 +54,13 @@ public class DialogueSystem : MonoBehaviour
     {
         throw new System.NotImplementedException();
     }
-    public void ShowDialogue(string[] dialogueToDisplay)
+    public void ShowDialogue(string[] dialogueToDisplay, Sprite[] sprites)
     {
         currentDialogueLines = dialogueToDisplay;
         currentLineIndex = 0;
         dialogLineIndex = 0;
         currentLine = dialogueToDisplay[dialogLineIndex];
+        this.gameObject.SetActive(true);
     }
 
     public void ContinueDialogue()
