@@ -4367,51 +4367,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1858499389}
     m_Modifications:
-    - target: {fileID: 496297508921384257, guid: 4842564a8fea9d84c8d59a53697301fe,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 496297508921384258, guid: 4842564a8fea9d84c8d59a53697301fe,
-        type: 3}
-      propertyPath: m_AnchorMax.x
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 496297508921384258, guid: 4842564a8fea9d84c8d59a53697301fe,
-        type: 3}
-      propertyPath: m_AnchorMax.y
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 496297508921384258, guid: 4842564a8fea9d84c8d59a53697301fe,
-        type: 3}
-      propertyPath: m_AnchorMin.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 496297508921384258, guid: 4842564a8fea9d84c8d59a53697301fe,
-        type: 3}
-      propertyPath: m_AnchorMin.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 496297508921384258, guid: 4842564a8fea9d84c8d59a53697301fe,
-        type: 3}
-      propertyPath: m_SizeDelta.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 496297508921384258, guid: 4842564a8fea9d84c8d59a53697301fe,
-        type: 3}
-      propertyPath: m_SizeDelta.y
-      value: 94
-      objectReference: {fileID: 0}
-    - target: {fileID: 839868904856721569, guid: 4842564a8fea9d84c8d59a53697301fe,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4165242120121845015, guid: 4842564a8fea9d84c8d59a53697301fe,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 4408929026959856601, guid: 4842564a8fea9d84c8d59a53697301fe,
         type: 3}
       propertyPath: m_Pivot.x
@@ -4521,11 +4476,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Overlay Canvas
-      objectReference: {fileID: 0}
-    - target: {fileID: 6004036106835848970, guid: 4842564a8fea9d84c8d59a53697301fe,
-        type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: ContinueDialogue
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4842564a8fea9d84c8d59a53697301fe, type: 3}
