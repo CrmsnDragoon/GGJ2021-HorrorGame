@@ -40,6 +40,7 @@ public class DialogueSystem : MonoBehaviour
     private string currentLine;
     private int dialogLineIndex;
     private string[] currentDialogueLines;
+    private Sprite[] currentDialogueSprites;
     
     enum DialogueState
     {
@@ -50,16 +51,22 @@ public class DialogueSystem : MonoBehaviour
 
     private DialogueState currentState;
     
-    public void ShowDialogue(string dialogueToDisplay)
-    {
-        throw new System.NotImplementedException();
-    }
     public void ShowDialogue(string[] dialogueToDisplay, Sprite[] sprites)
     {
         currentDialogueLines = dialogueToDisplay;
+        currentDialogueSprites = sprites;
         currentLineIndex = 0;
         dialogLineIndex = 0;
         currentLine = dialogueToDisplay[dialogLineIndex];
+        currentState = DialogueState.OutputtingText;
+        textBox.text = String.Empty;
+        if (sprites != null && sprites.Length != 0){
+            faceplate.sprite = sprites[dialogLineIndex];
+        }
+        else
+        {
+            faceplate.sprite = null;
+        }
         this.gameObject.SetActive(true);
     }
 
@@ -77,10 +84,18 @@ public class DialogueSystem : MonoBehaviour
             if (dialogLineIndex < currentDialogueLines.Length)
             {
                 currentLine = currentDialogueLines[dialogLineIndex];
+                if (currentDialogueSprites != null && currentDialogueSprites.Length > dialogLineIndex){
+                    faceplate.sprite = currentDialogueSprites[dialogLineIndex];
+                }
+                else
+                {
+                    faceplate.sprite = null;
+                }
             }
             else
             {
                 currentState = DialogueState.NoDialogue;
+                this.gameObject.SetActive(false);
             }
         }
     }
