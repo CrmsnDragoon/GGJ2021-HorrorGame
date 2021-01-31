@@ -6699,6 +6699,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Simon Stage 2
       objectReference: {fileID: 0}
+    - target: {fileID: 4528450594956809609, guid: 61631f135ca0a7e44aeeb6a93c8c1fc6,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4528450595191613291, guid: 61631f135ca0a7e44aeeb6a93c8c1fc6,
         type: 3}
       propertyPath: m_LocalPosition.x
