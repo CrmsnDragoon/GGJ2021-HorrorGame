@@ -97,6 +97,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   NoteIndex: 0
   isSimonsNote: 0
+  pickUp: {fileID: 0}
 --- !u!61 &-4025156032128839471
 BoxCollider2D:
   m_ObjectHideFlags: 0
