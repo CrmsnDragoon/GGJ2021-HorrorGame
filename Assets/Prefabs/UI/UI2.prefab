@@ -378,6 +378,7 @@ GameObject:
   - component: {fileID: 659297460864908224}
   - component: {fileID: 659297460864908230}
   - component: {fileID: 659297460864908225}
+  - component: {fileID: 5831957821958841703}
   m_Layer: 5
   m_Name: Bow
   m_TagString: Untagged
@@ -441,6 +442,20 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
+--- !u!114 &5831957821958841703
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 659297460864908227}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f0866fbdbb0b4cc45ac59547b45622bf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  item: 0
+  image: {fileID: 659297460864908225}
 --- !u!1 &659297461020848458
 GameObject:
   m_ObjectHideFlags: 0
@@ -754,6 +769,7 @@ GameObject:
   - component: {fileID: 659297461253914233}
   - component: {fileID: 659297461253914239}
   - component: {fileID: 659297461253914238}
+  - component: {fileID: 8971320273731538624}
   m_Layer: 5
   m_Name: Toy goat
   m_TagString: Untagged
@@ -817,6 +833,20 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
+--- !u!114 &8971320273731538624
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 659297461253914232}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f0866fbdbb0b4cc45ac59547b45622bf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  item: 2
+  image: {fileID: 659297461253914238}
 --- !u!1 &659297461634445601
 GameObject:
   m_ObjectHideFlags: 0
@@ -1071,6 +1101,7 @@ GameObject:
   - component: {fileID: 659297461771141320}
   - component: {fileID: 659297461771141326}
   - component: {fileID: 659297461771141321}
+  - component: {fileID: 7137789576133383446}
   m_Layer: 5
   m_Name: Locket
   m_TagString: Untagged
@@ -1134,6 +1165,20 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
+--- !u!114 &7137789576133383446
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 659297461771141323}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f0866fbdbb0b4cc45ac59547b45622bf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  item: 3
+  image: {fileID: 659297461771141321}
 --- !u!1 &659297461847776369
 GameObject:
   m_ObjectHideFlags: 0
@@ -1271,6 +1316,7 @@ GameObject:
   - component: {fileID: 659297462027968904}
   - component: {fileID: 659297462027968910}
   - component: {fileID: 659297462027968905}
+  - component: {fileID: 5457867758928591073}
   m_Layer: 5
   m_Name: Crown
   m_TagString: Untagged
@@ -1334,6 +1380,20 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
+--- !u!114 &5457867758928591073
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 659297462027968907}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f0866fbdbb0b4cc45ac59547b45622bf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  item: 1
+  image: {fileID: 659297462027968905}
 --- !u!1 &659297462041881793
 GameObject:
   m_ObjectHideFlags: 0
@@ -2004,6 +2064,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 659297461634445606}
     m_Modifications:
+    - target: {fileID: 4579328158098377756, guid: e6a84b1a9c5d3b944a0b2870c2f2dde5,
+        type: 3}
+      propertyPath: m_TargetGraphic
+      value: 
+      objectReference: {fileID: 2025848844174600988}
     - target: {fileID: 7655176267844533844, guid: e6a84b1a9c5d3b944a0b2870c2f2dde5,
         type: 3}
       propertyPath: m_Pivot.x
@@ -2112,3 +2177,15 @@ RectTransform:
     type: 3}
   m_PrefabInstance: {fileID: 6401435512690963585}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &2025848844174600988 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4957114522476896157, guid: e6a84b1a9c5d3b944a0b2870c2f2dde5,
+    type: 3}
+  m_PrefabInstance: {fileID: 6401435512690963585}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
