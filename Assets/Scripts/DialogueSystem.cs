@@ -34,11 +34,12 @@ public class DialogueSystem : MonoBehaviour
 
     [SerializeField] private Text textBox;
     private float lineSpeed = 0.3f;
-    private float characterTimer = 0;
+    private float characterTimer = 0; 
     private float currentLineIndex;
     private string currentLine;
     private int dialogLineIndex;
     private string[] currentDialogueLines;
+    public Sprite[] spritePerLine;
     
     enum DialogueState
     {
