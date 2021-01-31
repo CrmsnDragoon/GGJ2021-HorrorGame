@@ -11,7 +11,7 @@ public class LoadOnTriggerEnter : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if (targetLevel != 3){
+        if (targetLevel < 2 && targetLevel > 0){
             Global.SetStartPosition(targetLevel);
             SceneManager.LoadScene(targetLevel);
         }

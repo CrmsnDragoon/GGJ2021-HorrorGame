@@ -8,6 +8,11 @@ public class VideoSidecar : MonoBehaviour
     public UnityEvent onVideoEnded;
     public void PlayVideo()
     {
+        if (player.clip != null)
+        {
+            OnVideoEndedEvent(null);
+            return;
+        }
         player.loopPointReached += OnVideoEndedEvent;
         player.Play();
     }
