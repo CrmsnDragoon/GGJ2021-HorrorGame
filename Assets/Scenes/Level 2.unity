@@ -2395,7 +2395,7 @@ PrefabInstance:
     - target: {fileID: 5812926706765146885, guid: 68ae9c3bd34112944a9d41ed5a4f42af,
         type: 3}
       propertyPath: m_SortingOrder
-      value: 1
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 5812926706765146886, guid: 68ae9c3bd34112944a9d41ed5a4f42af,
         type: 3}
@@ -2429,7 +2429,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.21611309, y: -0.06378651}
+  m_Offset: {x: -0.13065481, y: -1.3578697}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -2440,7 +2440,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 5.6663246, y: 5.515498}
+  m_Size: {x: 5.495408, y: 2.9273317}
   m_EdgeRadius: 0
 --- !u!1 &885118203
 GameObject:
@@ -3236,7 +3236,7 @@ PrefabInstance:
     - target: {fileID: 8319123260228967123, guid: db5fe93668d9a0144bf89a38115843c0,
         type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: db5fe93668d9a0144bf89a38115843c0, type: 3}
@@ -6520,6 +6520,26 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1040811625}
     m_Modifications:
+    - target: {fileID: 217675978173901272, guid: 6c3514091b93b2c42b85709a355dd869,
+        type: 3}
+      propertyPath: m_Size.x
+      value: 2.8291402
+      objectReference: {fileID: 0}
+    - target: {fileID: 217675978173901272, guid: 6c3514091b93b2c42b85709a355dd869,
+        type: 3}
+      propertyPath: m_Size.y
+      value: 1.9496047
+      objectReference: {fileID: 0}
+    - target: {fileID: 217675978173901272, guid: 6c3514091b93b2c42b85709a355dd869,
+        type: 3}
+      propertyPath: m_Offset.x
+      value: -0.08011675
+      objectReference: {fileID: 0}
+    - target: {fileID: 217675978173901272, guid: 6c3514091b93b2c42b85709a355dd869,
+        type: 3}
+      propertyPath: m_Offset.y
+      value: -0.022890449
+      objectReference: {fileID: 0}
     - target: {fileID: 2984904098927791571, guid: 6c3514091b93b2c42b85709a355dd869,
         type: 3}
       propertyPath: m_IsActive
