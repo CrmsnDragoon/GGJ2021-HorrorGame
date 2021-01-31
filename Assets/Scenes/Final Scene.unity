@@ -412,13 +412,123 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8426888015697392795, guid: d35ae5571f88e384e8fcf6e2a91faf96,
         type: 3}
+      propertyPath: spritePerLine.Array.size
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 8426888015697392795, guid: d35ae5571f88e384e8fcf6e2a91faf96,
+        type: 3}
+      propertyPath: spritePerLine.Array.data[0]
+      value: 
+      objectReference: {fileID: 21300000, guid: 8c6dc58a333a41a4dbe7f0ef15384d08,
+        type: 3}
+    - target: {fileID: 8426888015697392795, guid: d35ae5571f88e384e8fcf6e2a91faf96,
+        type: 3}
+      propertyPath: spritePerLine.Array.data[1]
+      value: 
+      objectReference: {fileID: 21300000, guid: e03e97dfb31ecf3429f854b3cc6f2fd9,
+        type: 3}
+    - target: {fileID: 8426888015697392795, guid: d35ae5571f88e384e8fcf6e2a91faf96,
+        type: 3}
+      propertyPath: spritePerLine.Array.data[2]
+      value: 
+      objectReference: {fileID: 21300000, guid: 350ea3c7954884d49b7c910ad27d87ec,
+        type: 3}
+    - target: {fileID: 8426888015697392795, guid: d35ae5571f88e384e8fcf6e2a91faf96,
+        type: 3}
+      propertyPath: spritePerLine.Array.data[3]
+      value: 
+      objectReference: {fileID: 21300000, guid: e03e97dfb31ecf3429f854b3cc6f2fd9,
+        type: 3}
+    - target: {fileID: 8426888015697392795, guid: d35ae5571f88e384e8fcf6e2a91faf96,
+        type: 3}
+      propertyPath: spritePerLine.Array.data[4]
+      value: 
+      objectReference: {fileID: 21300000, guid: 213f61c663279a5409ab3fff1b090942,
+        type: 3}
+    - target: {fileID: 8426888015697392795, guid: d35ae5571f88e384e8fcf6e2a91faf96,
+        type: 3}
+      propertyPath: spritePerLine.Array.data[5]
+      value: 
+      objectReference: {fileID: 21300000, guid: 350ea3c7954884d49b7c910ad27d87ec,
+        type: 3}
+    - target: {fileID: 8426888015697392795, guid: d35ae5571f88e384e8fcf6e2a91faf96,
+        type: 3}
+      propertyPath: spritePerLine.Array.data[6]
+      value: 
+      objectReference: {fileID: 21300000, guid: e03e97dfb31ecf3429f854b3cc6f2fd9,
+        type: 3}
+    - target: {fileID: 8426888015697392795, guid: d35ae5571f88e384e8fcf6e2a91faf96,
+        type: 3}
+      propertyPath: spritePerLine.Array.data[7]
+      value: 
+      objectReference: {fileID: 21300000, guid: 213f61c663279a5409ab3fff1b090942,
+        type: 3}
+    - target: {fileID: 8426888015697392795, guid: d35ae5571f88e384e8fcf6e2a91faf96,
+        type: 3}
+      propertyPath: spritePerLine.Array.data[8]
+      value: 
+      objectReference: {fileID: 21300000, guid: e03e97dfb31ecf3429f854b3cc6f2fd9,
+        type: 3}
+    - target: {fileID: 8426888015697392795, guid: d35ae5571f88e384e8fcf6e2a91faf96,
+        type: 3}
+      propertyPath: spritePerLine.Array.data[9]
+      value: 
+      objectReference: {fileID: 21300000, guid: 350ea3c7954884d49b7c910ad27d87ec,
+        type: 3}
+    - target: {fileID: 8426888015697392795, guid: d35ae5571f88e384e8fcf6e2a91faf96,
+        type: 3}
       propertyPath: dialoguesToDisplay.Array.size
-      value: 1
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 8426888015697392795, guid: d35ae5571f88e384e8fcf6e2a91faf96,
         type: 3}
       propertyPath: dialoguesToDisplay.Array.data[0]
-      value: This is the end
+      value: 'Emery: Mother, Father. '
+      objectReference: {fileID: 0}
+    - target: {fileID: 8426888015697392795, guid: d35ae5571f88e384e8fcf6e2a91faf96,
+        type: 3}
+      propertyPath: dialoguesToDisplay.Array.data[1]
+      value: 'Father: Emery we missed you. '
+      objectReference: {fileID: 0}
+    - target: {fileID: 8426888015697392795, guid: d35ae5571f88e384e8fcf6e2a91faf96,
+        type: 3}
+      propertyPath: dialoguesToDisplay.Array.data[2]
+      value: 'Mother: We will be a family again.'
+      objectReference: {fileID: 0}
+    - target: {fileID: 8426888015697392795, guid: d35ae5571f88e384e8fcf6e2a91faf96,
+        type: 3}
+      propertyPath: dialoguesToDisplay.Array.data[3]
+      value: 'Father: Emery we need you to do something for us.'
+      objectReference: {fileID: 0}
+    - target: {fileID: 8426888015697392795, guid: d35ae5571f88e384e8fcf6e2a91faf96,
+        type: 3}
+      propertyPath: dialoguesToDisplay.Array.data[4]
+      value: 'Emery: What is it?'
+      objectReference: {fileID: 0}
+    - target: {fileID: 8426888015697392795, guid: d35ae5571f88e384e8fcf6e2a91faf96,
+        type: 3}
+      propertyPath: dialoguesToDisplay.Array.data[5]
+      value: 'Mother: Free us.'
+      objectReference: {fileID: 0}
+    - target: {fileID: 8426888015697392795, guid: d35ae5571f88e384e8fcf6e2a91faf96,
+        type: 3}
+      propertyPath: dialoguesToDisplay.Array.data[6]
+      value: 'Father: Summon the demon that will release us.'
+      objectReference: {fileID: 0}
+    - target: {fileID: 8426888015697392795, guid: d35ae5571f88e384e8fcf6e2a91faf96,
+        type: 3}
+      propertyPath: dialoguesToDisplay.Array.data[7]
+      value: "Emery: \u2026...but how?"
+      objectReference: {fileID: 0}
+    - target: {fileID: 8426888015697392795, guid: d35ae5571f88e384e8fcf6e2a91faf96,
+        type: 3}
+      propertyPath: dialoguesToDisplay.Array.data[8]
+      value: 'Father: Destroy the items that you have collected.'
+      objectReference: {fileID: 0}
+    - target: {fileID: 8426888015697392795, guid: d35ae5571f88e384e8fcf6e2a91faf96,
+        type: 3}
+      propertyPath: dialoguesToDisplay.Array.data[9]
+      value: 'Mother: Put them in the fireplace. '
       objectReference: {fileID: 0}
     - target: {fileID: 8514797031686386809, guid: d35ae5571f88e384e8fcf6e2a91faf96,
         type: 3}
@@ -883,22 +993,52 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2871387199563971119, guid: 1b7cf7375662a9d4eb52f277f9e2534f,
         type: 3}
+      propertyPath: onVideoEnded.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2871387199563971119, guid: 1b7cf7375662a9d4eb52f277f9e2534f,
+        type: 3}
       propertyPath: onVideoEnded.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
-      value: 6
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2871387199563971119, guid: 1b7cf7375662a9d4eb52f277f9e2534f,
+        type: 3}
+      propertyPath: onVideoEnded.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2871387199563971119, guid: 1b7cf7375662a9d4eb52f277f9e2534f,
         type: 3}
       propertyPath: onVideoEnded.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
+      objectReference: {fileID: 1318701188}
+    - target: {fileID: 2871387199563971119, guid: 1b7cf7375662a9d4eb52f277f9e2534f,
+        type: 3}
+      propertyPath: onVideoEnded.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
       objectReference: {fileID: 1318701186}
     - target: {fileID: 2871387199563971119, guid: 1b7cf7375662a9d4eb52f277f9e2534f,
         type: 3}
+      propertyPath: onVideoEnded.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2871387199563971119, guid: 1b7cf7375662a9d4eb52f277f9e2534f,
+        type: 3}
+      propertyPath: onVideoEnded.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2871387199563971119, guid: 1b7cf7375662a9d4eb52f277f9e2534f,
+        type: 3}
       propertyPath: onVideoEnded.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: SetActive
+      value: LoadLevel
       objectReference: {fileID: 0}
     - target: {fileID: 2871387199563971119, guid: 1b7cf7375662a9d4eb52f277f9e2534f,
         type: 3}
       propertyPath: onVideoEnded.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_BoolArgument
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2871387199563971119, guid: 1b7cf7375662a9d4eb52f277f9e2534f,
+        type: 3}
+      propertyPath: onVideoEnded.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_BoolArgument
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2871387199563971120, guid: 1b7cf7375662a9d4eb52f277f9e2534f,
@@ -1480,7 +1620,7 @@ PrefabInstance:
     - target: {fileID: 758610546665296347, guid: 5dd6db7070c39524386aa3b977af6085,
         type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5dd6db7070c39524386aa3b977af6085, type: 3}
@@ -1496,6 +1636,18 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1318701185}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1318701188 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 758610546665296342, guid: 5dd6db7070c39524386aa3b977af6085,
+    type: 3}
+  m_PrefabInstance: {fileID: 1318701185}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1318701186}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a3be1a44001bf9141af7456dccb74dba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!4 &1466395771 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4449606519178402302, guid: 084f64b402dc1d84eac109c836ad5437,
@@ -1895,5 +2047,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Emery End
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 8579373381191456008, guid: c1f07204d82c6f046b6cb6e4fd24004e, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: c1f07204d82c6f046b6cb6e4fd24004e, type: 3}

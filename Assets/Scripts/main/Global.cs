@@ -11,7 +11,9 @@ public class Global
         set
         {
             _health = value;
-            mainUI.Instance.UpdateTotals();
+            if (mainUI.Instance != null){
+                mainUI.Instance.UpdateTotals();
+            }
         }
     }
     

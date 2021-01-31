@@ -13,7 +13,13 @@ public class LoadOnTriggerEnter : MonoBehaviour
     {
         if (targetLevel < 2 && targetLevel > 0){
             Global.SetStartPosition(targetLevel);
-            SceneManager.LoadScene(targetLevel);
         }
+
+        LoadLevel();
+    }
+
+    public void LoadLevel()
+    {
+        SceneManager.LoadScene(targetLevel);
     }
 }
