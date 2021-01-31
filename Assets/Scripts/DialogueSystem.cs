@@ -43,7 +43,7 @@ public class DialogueSystem : MonoBehaviour
     private string[] currentDialogueLines;
     private Sprite[] currentDialogueSprites;
 
-    [SerializeField] private UnityEvent OnDialogueEndEvent = new UnityEvent();
+    public UnityEvent OnDialogueEndEvent = new UnityEvent();
     
     enum DialogueState
     {
