@@ -13,6 +13,7 @@ public class SubtitleController : MonoBehaviour {
             Destroy(this.gameObject);
         } else {
             _instance = this;
+            HideSubtitle();
         }
     }
 
