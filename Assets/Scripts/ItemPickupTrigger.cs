@@ -10,5 +10,6 @@ public class ItemPickupTrigger : MonoBehaviour
     {
         SpriteModal.Instance.DisplayModal(item);
         gameObject.SetActive(false);
+        Global.TrinketScore++;
     }
 }

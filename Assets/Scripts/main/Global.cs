@@ -49,8 +49,9 @@ public class Global
 
     public static void Reset()
     {
-        Health = 2;
+        Health = 10;
         HasSimonsNote = false;
+        TrinketScore = 0;
         UnblockInput();
     }
 
@@ -66,7 +67,8 @@ public class Global
         new Vector3()
     };
     public static Vector3 StartPosition = Vector3.zero;
-    
+    public static int TrinketScore = 0;
+
     public static void SetStartPosition(int currentLevel)
     {
         StartPosition = StartPositions[currentLevel];
