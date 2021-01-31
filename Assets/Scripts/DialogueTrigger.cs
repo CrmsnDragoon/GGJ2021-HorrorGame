@@ -1,14 +1,20 @@
 ﻿using UnityEngine;
+using UnityEngine.Serialization;
 
 [RequireComponent(typeof(BoxCollider2D))]
 public class DialogueTrigger : MonoBehaviour
 {
-    [SerializeField] private string[] DialoguesToDisplay;
-    
+    [FormerlySerializedAs("DialoguesToDisplay")] 
+    [SerializeField] private string[] dialoguesToDisplay;
+    [SerializeField] private bool repeatable = false;
+    [SerializeField] private bool dialogueShown = false;
     private void OnTriggerEnter2D(Collider2D other)
     {
         Debug.Log("Dialog Triggered");
         gameObject.SetActive(false);
-        DialogueSystem.Instance.ShowDialogue(DialoguesToDisplay);
+        if (!dialogueShown || repeatable){
+            dialogueShown = true;
+            DialogueSystem.Instance.ShowDialogue(dialoguesToDisplay);
+        }
     }
 }

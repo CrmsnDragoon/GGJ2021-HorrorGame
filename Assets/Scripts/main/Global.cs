@@ -58,6 +58,19 @@ public class Global
     {
         itemList = itemListScriptableObject.ConstructList();
     }
+
+    public static Vector3[] StartPositions = new Vector3[3]
+    {
+        Vector3.zero,
+        new Vector3(15.28f,27.2f,0f),
+        new Vector3()
+    };
+    public static Vector3 StartPosition = Vector3.zero;
+    
+    public static void SetStartPosition(int currentLevel)
+    {
+        StartPosition = StartPositions[currentLevel];
+    }
 }
 
 public enum ItemType

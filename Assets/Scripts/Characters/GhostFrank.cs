@@ -25,11 +25,4 @@ public class GhostFrank : MonoBehaviour
             }
         }
     }
-
-   // IEnumerator frankCallsBrothers()
-  //  {
-        
-        //yield return new WaitForSeconds(1);
-
-  //  }
 }
