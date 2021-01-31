@@ -11,7 +11,10 @@ public class NotePickup : MonoBehaviour
 
     private void Start()
     {
-        GetComponent<AudioSource>();
+        if (Global.NoteIsCollected(NoteIndex))
+        {
+            this.gameObject.SetActive(false);
+        }
     }
 
     private void OnTriggerEnter2D(Collider2D other)
@@ -21,5 +24,6 @@ public class NotePickup : MonoBehaviour
         this.gameObject.SetActive(false);
         Notes.Instance.ShowNote(NoteIndex);
         Global.HasSimonsNote = isSimonsNote;
+        Global.CollectedNote(NoteIndex);
     }
 }

@@ -1,6 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.Events;
 using UnityEngine.Video;
 
@@ -10,6 +8,11 @@ public class VideoSidecar : MonoBehaviour
     public UnityEvent onVideoEnded;
     public void PlayVideo()
     {
+        if (player.clip == null)
+        {
+            OnVideoEndedEvent(null);
+            return;
+        }
         player.loopPointReached += OnVideoEndedEvent;
         player.Play();
     }
@@ -17,7 +20,10 @@ public class VideoSidecar : MonoBehaviour
     private void OnVideoEndedEvent(VideoPlayer source)
     {
         player.loopPointReached -= OnVideoEndedEvent;
+        if(source != null)
+        {
+            source.Stop();
+        }
         onVideoEnded?.Invoke();
-        source.Stop();
     }
 }

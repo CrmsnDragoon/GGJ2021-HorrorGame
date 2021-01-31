@@ -21,6 +21,10 @@ public class EnemyFollowTwo : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (Global.EmeryInputBlocked)
+        {
+            return;
+        }
         if (soundTimer > 0) soundTimer -= Time.deltaTime;
         if (soundTimer < 0) soundTimer = -1;
         

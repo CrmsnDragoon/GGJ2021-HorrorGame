@@ -2,6 +2,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 using UnityEngine.UI;
 
 public class DialogueSystem : MonoBehaviour
@@ -41,6 +42,8 @@ public class DialogueSystem : MonoBehaviour
     private int dialogLineIndex;
     private string[] currentDialogueLines;
     private Sprite[] currentDialogueSprites;
+
+    [SerializeField] private UnityEvent OnDialogueEndEvent = new UnityEvent();
     
     enum DialogueState
     {
@@ -68,6 +71,7 @@ public class DialogueSystem : MonoBehaviour
             faceplate.sprite = null;
         }
         this.gameObject.SetActive(true);
+        Global.BlockInput();
     }
 
     public void ContinueDialogue()
@@ -96,6 +100,8 @@ public class DialogueSystem : MonoBehaviour
             {
                 currentState = DialogueState.NoDialogue;
                 this.gameObject.SetActive(false);
+                Global.UnblockInput();
+                OnDialogueEndEvent?.Invoke();
             }
         }
     }

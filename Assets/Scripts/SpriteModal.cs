@@ -12,11 +12,11 @@ public class SpriteModal : MonoBehaviour
     {
         if (_instance != null && _instance != this)
         {
-            Destroy(this.gameObject);
+            Destroy(gameObject);
         } else {
             _instance = this;
         }
-        this.gameObject.SetActive(false);
+        gameObject.SetActive(false);
     }
     #endregion
     [SerializeField] private Image itemSprite;

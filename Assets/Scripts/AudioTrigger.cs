@@ -1,6 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class AudioTrigger : MonoBehaviour
 {
@@ -10,7 +8,7 @@ public class AudioTrigger : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (soundPlayed == true)
+        if (soundPlayed == true || !gameObject.activeInHierarchy)
         {
             return;
         }
