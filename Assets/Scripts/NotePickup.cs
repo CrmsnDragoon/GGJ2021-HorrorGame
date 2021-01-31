@@ -9,7 +9,7 @@ public class NotePickup : MonoBehaviour
 
     public AudioSource pickUp;
 
-    private bool isLevel2 = false;
+    public bool isLevel2 = false;
     
     private void Start()
     {

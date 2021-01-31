@@ -1455,6 +1455,11 @@ PrefabInstance:
       propertyPath: pickUp
       value: 
       objectReference: {fileID: 653318399}
+    - target: {fileID: 7254688641503174793, guid: 2ceed873befbd974380fd59cf6585405,
+        type: 3}
+      propertyPath: isLevel2
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2ceed873befbd974380fd59cf6585405, type: 3}
 --- !u!4 &414818289 stripped
@@ -3849,6 +3854,11 @@ PrefabInstance:
       propertyPath: pickUp
       value: 
       objectReference: {fileID: 653318399}
+    - target: {fileID: 7254688641503174793, guid: 2ceed873befbd974380fd59cf6585405,
+        type: 3}
+      propertyPath: isLevel2
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2ceed873befbd974380fd59cf6585405, type: 3}
 --- !u!4 &1118289343 stripped
@@ -5655,6 +5665,11 @@ PrefabInstance:
       propertyPath: pickUp
       value: 
       objectReference: {fileID: 653318399}
+    - target: {fileID: 7254688641503174793, guid: 2ceed873befbd974380fd59cf6585405,
+        type: 3}
+      propertyPath: isLevel2
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2ceed873befbd974380fd59cf6585405, type: 3}
 --- !u!4 &1516650255 stripped
@@ -8168,6 +8183,11 @@ PrefabInstance:
       propertyPath: pickUp
       value: 
       objectReference: {fileID: 653318399}
+    - target: {fileID: 7254688641503174793, guid: 2ceed873befbd974380fd59cf6585405,
+        type: 3}
+      propertyPath: isLevel2
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2ceed873befbd974380fd59cf6585405, type: 3}
 --- !u!1 &2126715685
