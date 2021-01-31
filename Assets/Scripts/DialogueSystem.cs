@@ -33,7 +33,7 @@ public class DialogueSystem : MonoBehaviour
     #endregion
 
     [SerializeField] private Text textBox;
-    [SerializeField] private SpriteRenderer spriteRenderer;
+    [SerializeField] private Image faceplate;
     private float lineSpeed = 0.3f;
     private float characterTimer = 0; 
     private float currentLineIndex;

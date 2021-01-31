@@ -54,7 +54,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   textBox: {fileID: 7655176268797439989}
-  spritePerLine: []
+  faceplate: {fileID: 7655176268858256051}
 --- !u!114 &1848502743973675779
 MonoBehaviour:
   m_ObjectHideFlags: 0
