@@ -9,9 +9,11 @@ public class NotePickup : MonoBehaviour
 
     public AudioSource pickUp;
 
+    private bool isLevel2 = false;
+    
     private void Start()
     {
-        if (Global.NoteIsCollected(NoteIndex))
+        if (Global.NoteIsCollected(isLevel2?4+NoteIndex: NoteIndex))
         {
             this.gameObject.SetActive(false);
         }
@@ -24,6 +26,6 @@ public class NotePickup : MonoBehaviour
         this.gameObject.SetActive(false);
         Notes.Instance.ShowNote(NoteIndex);
         Global.HasSimonsNote = isSimonsNote;
-        Global.CollectedNote(NoteIndex);
+        Global.CollectedNote(isLevel2?4+NoteIndex: NoteIndex);
     }
 }
