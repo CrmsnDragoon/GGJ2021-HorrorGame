@@ -25,4 +25,8 @@ public class DialogueSystem : MonoBehaviour
     {
         throw new System.NotImplementedException();
     }
+    public void ShowDialogue(string[] dialogueToDisplay)
+    {
+        throw new System.NotImplementedException();
+    }
 }

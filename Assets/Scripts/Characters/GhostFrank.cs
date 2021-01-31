@@ -19,7 +19,10 @@ public class GhostFrank : MonoBehaviour
         {
             growl.Play();
             Global.Health--;
-            FranksBros.SetActive(true);
+            if (FranksBros != null)
+            {
+                FranksBros.SetActive(true);
+            }
         }
     }
 
