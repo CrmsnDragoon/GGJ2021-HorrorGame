@@ -7,11 +7,6 @@ public class GhostNurse : MonoBehaviour
     public AudioSource happy;
     public GameObject nurse2;
 
-    void Start()
-    {
-        GetComponent<AudioSource>();
-    }
-
     void OnTriggerEnter2D(Collider2D other)
     {
         if (other.gameObject.CompareTag("Player"))

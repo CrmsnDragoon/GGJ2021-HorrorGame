@@ -64,7 +64,7 @@ public class Global
     {
         Vector3.zero,
         new Vector3(15.28f,27.2f,0f),
-        new Vector3()
+        new Vector3(1.51f,0,0)
     };
     public static Vector3 StartPosition = Vector3.zero;
     public static int TrinketScore = 0;
@@ -72,6 +72,31 @@ public class Global
     public static void SetStartPosition(int currentLevel)
     {
         StartPosition = StartPositions[currentLevel];
+    }
+
+    public static readonly List<int> CollectedNotes = new List<int>();
+    public static void CollectedNote(int noteIndex)
+    {
+        if (!CollectedNotes.Contains(noteIndex))
+        {
+            CollectedNotes.Add(noteIndex);
+        }
+    }
+    public static bool NoteIsCollected(int noteIndex)
+    {
+        return CollectedNotes.Contains(noteIndex);
+    }
+    public static readonly List<ItemType> CollectedTrinkets = new List<ItemType>();
+    public static void CollectedTrinket(ItemType trinketType)
+    {
+        if (!CollectedTrinkets.Contains(trinketType))
+        {
+            CollectedTrinkets.Add(trinketType);
+        }
+    }
+    public static bool TrinketIsCollected(ItemType trinketType)
+    {
+        return CollectedTrinkets.Contains(trinketType);
     }
 }
 

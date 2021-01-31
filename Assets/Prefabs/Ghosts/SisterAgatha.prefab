@@ -221,7 +221,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 39.142857, y: 63.42857}
+    oldSize: {x: 54.8, y: 88.8}
     newSize: {x: 40.53823, y: 57.059998}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -247,7 +247,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 39.142857, y: 63.42857}
+    oldSize: {x: 54.8, y: 88.8}
     newSize: {x: 40.53823, y: 57.059998}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -366,6 +366,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: BeconningCollider
+      objectReference: {fileID: 0}
+    - target: {fileID: 8843823779243817012, guid: f1804643f4e0a89479b2b6281d715e1d,
+        type: 3}
+      propertyPath: m_Size.y
+      value: 0.65827465
+      objectReference: {fileID: 0}
+    - target: {fileID: 8843823779243817012, guid: f1804643f4e0a89479b2b6281d715e1d,
+        type: 3}
+      propertyPath: m_Offset.y
+      value: 0.17086267
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f1804643f4e0a89479b2b6281d715e1d, type: 3}

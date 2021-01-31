@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class enemyFollow : MonoBehaviour
@@ -17,10 +15,14 @@ public class enemyFollow : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (Global.EmeryInputBlocked)
+        {
+            return;
+        }
+
         if (Vector2.Distance(transform.position, target.position) > 1)
         {
             transform.position = Vector2.MoveTowards(transform.position, target.position, speed * Time.deltaTime);
         }
-
     }   
 }

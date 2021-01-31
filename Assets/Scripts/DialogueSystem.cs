@@ -68,6 +68,7 @@ public class DialogueSystem : MonoBehaviour
             faceplate.sprite = null;
         }
         this.gameObject.SetActive(true);
+        Global.BlockInput();
     }
 
     public void ContinueDialogue()
@@ -96,6 +97,7 @@ public class DialogueSystem : MonoBehaviour
             {
                 currentState = DialogueState.NoDialogue;
                 this.gameObject.SetActive(false);
+                Global.UnblockInput();
             }
         }
     }

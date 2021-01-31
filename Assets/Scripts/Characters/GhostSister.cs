@@ -40,13 +40,6 @@ public class GhostSister : MonoBehaviour
         {
             var position = transform.position;
             var newPos = Vector3.MoveTowards(position, _target.position,movementSpeed * Time.deltaTime);
-            //Slow to do a nullcheck here, but it's fine for now.
-            if (animator != null)
-            {
-                var moveDelta = (position - newPos);
-                var maxSpeedThisFrame = movementSpeed * Time.deltaTime;
-                animator.SetFloat(Speed, moveDelta.magnitude / maxSpeedThisFrame);
-            }
             transform.position = newPos;
         }
     }

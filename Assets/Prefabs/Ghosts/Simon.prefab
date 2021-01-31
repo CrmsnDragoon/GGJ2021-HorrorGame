@@ -45,6 +45,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 64aa17742831a9c478d9a4a8caafc893, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  gateBasedOnTrinkets: 0
 --- !u!1 &4528450595191613292
 GameObject:
   m_ObjectHideFlags: 0
@@ -185,6 +186,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: DialogueTrigger
+      objectReference: {fileID: 0}
+    - target: {fileID: 8426888015697392795, guid: d35ae5571f88e384e8fcf6e2a91faf96,
+        type: 3}
+      propertyPath: repeatable
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8514797031686386809, guid: d35ae5571f88e384e8fcf6e2a91faf96,
         type: 3}
