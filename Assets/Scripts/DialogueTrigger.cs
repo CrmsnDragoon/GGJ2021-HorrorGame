@@ -12,10 +12,15 @@ public class DialogueTrigger : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D other)
     {
         Debug.Log("Dialog Triggered");
-        gameObject.SetActive(false);
-        if (!dialogueShown || repeatable){
-            dialogueShown = true;
-            DialogueSystem.Instance.ShowDialogue(dialoguesToDisplay, spritePerLine);
+        
+        if (other.gameObject.CompareTag("Player"))
+        {
+            gameObject.SetActive(false);
+            if (!dialogueShown || repeatable)
+            {
+                dialogueShown = true;
+                DialogueSystem.Instance.ShowDialogue(dialoguesToDisplay, spritePerLine);
+            }
         }
     }
 }

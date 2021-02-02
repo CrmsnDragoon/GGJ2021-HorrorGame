@@ -22,7 +22,7 @@ public class GhostMila : MonoBehaviour
     IEnumerator milaScreamMoment()
     {
         Scream.Play();
-        SubtitleController.Instance.ShowSubtitle("*Crackled Scream*", 1);
+        SubtitleController.Instance.ShowSubtitle("Mila: *Crackled Scream*", 1);
         MilaOff.enabled = false;
         yield return new WaitForSeconds(1);
         if (MilaOn != null)

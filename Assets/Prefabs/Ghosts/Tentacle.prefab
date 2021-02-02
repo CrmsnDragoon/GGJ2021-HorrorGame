@@ -11,9 +11,9 @@ GameObject:
   - component: {fileID: 4449606519178402302}
   - component: {fileID: 4449606519178402303}
   - component: {fileID: 4449606519178402300}
-  - component: {fileID: 4449606519178402301}
   - component: {fileID: 4449606519178402290}
   - component: {fileID: 4449606519178402297}
+  - component: {fileID: 9065602047773375830}
   m_Layer: 0
   m_Name: Tentacle
   m_TagString: Untagged
@@ -105,20 +105,6 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!114 &4449606519178402301
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4449606519178402291}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: baa4ecd9c94130f49b0a1d8db6012e69, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  FranksBros: {fileID: 0}
-  growl: {fileID: 4449606519178402290}
 --- !u!82 &4449606519178402290
 AudioSource:
   m_ObjectHideFlags: 0
@@ -241,3 +227,16 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.61191463, y: 1.2164922}
   m_EdgeRadius: 0
+--- !u!114 &9065602047773375830
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4449606519178402291}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9e3230b116dd19c42969d16289f7ae59, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sloppy: {fileID: 4449606519178402290}

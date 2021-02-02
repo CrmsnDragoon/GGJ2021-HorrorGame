@@ -69,7 +69,7 @@ public class mainUI : MonoBehaviour
         // died.SetActive(true);
         yield return new WaitForSeconds(2);
         Global.Reset();
-        SceneManager.LoadScene(0);
+        SceneManager.LoadScene(5);
     }
 
     public void UpdateTotals()

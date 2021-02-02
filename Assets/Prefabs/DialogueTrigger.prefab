@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 8514797031686386809}
   - component: {fileID: 8872289909632503518}
   - component: {fileID: 8426888015697392795}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: DialogueTrigger
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -71,5 +71,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialoguesToDisplay: []
+  spritePerLine: []
   repeatable: 0
   dialogueShown: 0

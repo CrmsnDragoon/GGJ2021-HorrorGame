@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: 217675978173901272}
   - component: {fileID: 9140680108461294813}
   - component: {fileID: 4524184560008628397}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Maggie
   m_TagString: Untagged
   m_Icon: {fileID: 0}

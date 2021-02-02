@@ -11,10 +11,20 @@ public class GhostNurse : MonoBehaviour
     {
         if (other.gameObject.CompareTag("Player"))
         {
-            happy.Play();
             Global.Health++;
             nurse2.SetActive(true);
-            gameObject.SetActive(false);
+            StartCoroutine(happyMoment());
         }
     }
+
+    IEnumerator happyMoment()
+    {
+        happy.Play();
+        SubtitleController.Instance.ShowSubtitle("*bloop bloop*", 1);
+        gameObject.SetActive(false);
+        yield return new WaitForSeconds(1);
+        
+    }
+
+
 }

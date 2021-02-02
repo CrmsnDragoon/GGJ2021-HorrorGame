@@ -5,6 +5,7 @@ using UnityEngine;
 public class PasswordScript : MonoBehaviour
 {
     public GameObject passwordSimon;
+    public GameObject simonGoodbye;
 
     private void OnTriggerEnter2D(Collider2D other)
     {
@@ -12,6 +13,7 @@ public class PasswordScript : MonoBehaviour
 
         {
             passwordSimon.SetActive(true);
+            simonGoodbye.SetActive(true);
         }
     }
 

@@ -2,26 +2,24 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class GhostBrother : MonoBehaviour
+public class Tenticle : MonoBehaviour
 {
-  
-    public AudioSource growl;
+    public AudioSource sloppy;
 
     void OnTriggerEnter2D(Collider2D other)
     {
         if (other.gameObject.CompareTag("Player"))
         {
             Global.Health--;
-            StartCoroutine(frankGruntMoment());
-          
+            StartCoroutine(sloppyMoment());
+
         }
     }
 
-    IEnumerator frankGruntMoment()
+    IEnumerator sloppyMoment()
     {
-        growl.Play();
-        SubtitleController.Instance.ShowSubtitle("Frank's Brother: *Grunting*", 1);
+        sloppy.Play();
+        SubtitleController.Instance.ShowSubtitle("*really gross sloppy sound*", 2);
         yield return new WaitForSeconds(1);
     }
-
 }
