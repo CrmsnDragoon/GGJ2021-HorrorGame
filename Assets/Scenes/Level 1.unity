@@ -250,7 +250,7 @@ PrefabInstance:
     - target: {fileID: 8426888015697392795, guid: d35ae5571f88e384e8fcf6e2a91faf96,
         type: 3}
       propertyPath: spritePerLine.Array.size
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 8426888015697392795, guid: d35ae5571f88e384e8fcf6e2a91faf96,
         type: 3}
@@ -266,8 +266,14 @@ PrefabInstance:
         type: 3}
     - target: {fileID: 8426888015697392795, guid: d35ae5571f88e384e8fcf6e2a91faf96,
         type: 3}
+      propertyPath: spritePerLine.Array.data[2]
+      value: 
+      objectReference: {fileID: 21300000, guid: e34e9b78028ac9747948678bb4e7369c,
+        type: 3}
+    - target: {fileID: 8426888015697392795, guid: d35ae5571f88e384e8fcf6e2a91faf96,
+        type: 3}
       propertyPath: dialoguesToDisplay.Array.size
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 8426888015697392795, guid: d35ae5571f88e384e8fcf6e2a91faf96,
         type: 3}
@@ -277,8 +283,12 @@ PrefabInstance:
     - target: {fileID: 8426888015697392795, guid: d35ae5571f88e384e8fcf6e2a91faf96,
         type: 3}
       propertyPath: dialoguesToDisplay.Array.data[1]
-      value: 'I once started a food-fight at school, because they were serving salad
-        instead of chips. '
+      value: I once started a food-fight at school,
+      objectReference: {fileID: 0}
+    - target: {fileID: 8426888015697392795, guid: d35ae5571f88e384e8fcf6e2a91faf96,
+        type: 3}
+      propertyPath: dialoguesToDisplay.Array.data[2]
+      value: 'because they were serving salad instead of chips. '
       objectReference: {fileID: 0}
     - target: {fileID: 8514797031686386809, guid: d35ae5571f88e384e8fcf6e2a91faf96,
         type: 3}
@@ -6137,7 +6147,7 @@ PrefabInstance:
     - target: {fileID: 8426888015697392795, guid: d35ae5571f88e384e8fcf6e2a91faf96,
         type: 3}
       propertyPath: dialoguesToDisplay.Array.data[0]
-      value: Hmmm... What are these markings?markings on them.
+      value: Hmmm... What are these markings?
       objectReference: {fileID: 0}
     - target: {fileID: 8426888015697392795, guid: d35ae5571f88e384e8fcf6e2a91faf96,
         type: 3}
@@ -6217,22 +6227,22 @@ PrefabInstance:
     - target: {fileID: 8872289909632503518, guid: d35ae5571f88e384e8fcf6e2a91faf96,
         type: 3}
       propertyPath: m_Size.x
-      value: 82.44551
+      value: 67.81436
       objectReference: {fileID: 0}
     - target: {fileID: 8872289909632503518, guid: d35ae5571f88e384e8fcf6e2a91faf96,
         type: 3}
       propertyPath: m_Size.y
-      value: 34.767426
+      value: 29.192589
       objectReference: {fileID: 0}
     - target: {fileID: 8872289909632503518, guid: d35ae5571f88e384e8fcf6e2a91faf96,
         type: 3}
       propertyPath: m_Offset.x
-      value: 31.222755
+      value: 38.53833
       objectReference: {fileID: 0}
     - target: {fileID: 8872289909632503518, guid: d35ae5571f88e384e8fcf6e2a91faf96,
         type: 3}
       propertyPath: m_Offset.y
-      value: -0.8204479
+      value: 1.9669704
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d35ae5571f88e384e8fcf6e2a91faf96, type: 3}
@@ -7605,7 +7615,7 @@ PrefabInstance:
     - target: {fileID: 8426888015697392795, guid: d35ae5571f88e384e8fcf6e2a91faf96,
         type: 3}
       propertyPath: dialoguesToDisplay.Array.data[1]
-      value: I snuck out the backdoor through the laundry, so many times.
+      value: I'd sneek out the backdoor through the laundry.
       objectReference: {fileID: 0}
     - target: {fileID: 8514797031686386809, guid: d35ae5571f88e384e8fcf6e2a91faf96,
         type: 3}
