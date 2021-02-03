@@ -3746,6 +3746,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d35ae5571f88e384e8fcf6e2a91faf96, type: 3}
+--- !u!1 &952847645 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 839868904343577889, guid: 4842564a8fea9d84c8d59a53697301fe,
+    type: 3}
+  m_PrefabInstance: {fileID: 1826431658}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &989663536
 GameObject:
   m_ObjectHideFlags: 0
@@ -6291,6 +6297,12 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!1 &1535280259 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 839868904419587025, guid: 4842564a8fea9d84c8d59a53697301fe,
+    type: 3}
+  m_PrefabInstance: {fileID: 1826431658}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1553241016
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8000,16 +8012,55 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 839868904240701352, guid: 4842564a8fea9d84c8d59a53697301fe,
+        type: 3}
+      propertyPath: m_Text
+      value: "Dear One,\r\n   \rIt\u2019s nearly time\r\nWe can\u2019t wait to meet
+        \r\n     you.\r\n"
+      objectReference: {fileID: 0}
+    - target: {fileID: 839868904343577951, guid: 4842564a8fea9d84c8d59a53697301fe,
+        type: 3}
+      propertyPath: m_Text
+      value: "Not everything is\nwhat it seems.\nI\u2019m sure\nthey will save me.\n"
+      objectReference: {fileID: 0}
+    - target: {fileID: 839868904419587023, guid: 4842564a8fea9d84c8d59a53697301fe,
+        type: 3}
+      propertyPath: m_Text
+      value: "Simon says,\r\n    If I\u2019m good\r\n we can always play\r\nI won\u2019t
+        have to\r leave.\n"
+      objectReference: {fileID: 0}
     - target: {fileID: 839868904856721569, guid: 4842564a8fea9d84c8d59a53697301fe,
         type: 3}
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 839868905710433473, guid: 4842564a8fea9d84c8d59a53697301fe,
+        type: 3}
+      propertyPath: m_Text
+      value: "Lilly is so nice\r\n  she gave me a band-aid\r\n   that made me feel\r\n 
+        better\r."
+      objectReference: {fileID: 0}
+    - target: {fileID: 839868905710433473, guid: 4842564a8fea9d84c8d59a53697301fe,
+        type: 3}
+      propertyPath: m_FontData.m_Font
+      value: 
+      objectReference: {fileID: 12800000, guid: a9137562d6a8e8c4f86a3f71f8ef2845,
+        type: 3}
     - target: {fileID: 1118508883691627378, guid: 4842564a8fea9d84c8d59a53697301fe,
         type: 3}
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1606162807500972281, guid: 4842564a8fea9d84c8d59a53697301fe,
+        type: 3}
+      propertyPath: notes.Array.data[0]
+      value: 
+      objectReference: {fileID: 1535280259}
+    - target: {fileID: 1606162807500972281, guid: 4842564a8fea9d84c8d59a53697301fe,
+        type: 3}
+      propertyPath: notes.Array.data[2]
+      value: 
+      objectReference: {fileID: 952847645}
     - target: {fileID: 4165242120121845015, guid: 4842564a8fea9d84c8d59a53697301fe,
         type: 3}
       propertyPath: m_IsActive
@@ -8021,6 +8072,11 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4408929026728614878, guid: 4842564a8fea9d84c8d59a53697301fe,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4408929026953864886, guid: 4842564a8fea9d84c8d59a53697301fe,
         type: 3}
       propertyPath: m_IsActive
       value: 1
@@ -9660,6 +9716,17 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
       value: SetActive
       objectReference: {fileID: 0}
+    - target: {fileID: 7990503530781923890, guid: ba650ea9484271e44beefb0d5e8c79e6,
+        type: 3}
+      propertyPath: m_Type
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7990503530781923890, guid: ba650ea9484271e44beefb0d5e8c79e6,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 9052cd741b5265445ba9fa9592913a58,
+        type: 3}
     - target: {fileID: 8980753661941989756, guid: ba650ea9484271e44beefb0d5e8c79e6,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
