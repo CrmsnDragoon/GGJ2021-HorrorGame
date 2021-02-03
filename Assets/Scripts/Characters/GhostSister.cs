@@ -63,9 +63,10 @@ public class GhostSister : MonoBehaviour
     {
         if (other.gameObject.CompareTag("Player"))
         {
-            onCollisionSFX.Play();
+            
             Global.Health--;
             MoveToNextPosition();
+            StartCoroutine(agathaMoment());
         }
     }
 
@@ -94,5 +95,12 @@ public class GhostSister : MonoBehaviour
         }
         yield return new WaitForSeconds(1.5f);
         gameObject.SetActive(false);
+    }
+
+    IEnumerator agathaMoment()
+    {
+        onCollisionSFX.Play();
+        SubtitleController.Instance.ShowSubtitle("Sister Agatha: Nooo", 1);
+        yield return new WaitForSeconds(1);
     }
 }

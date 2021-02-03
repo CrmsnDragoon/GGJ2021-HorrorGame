@@ -1852,7 +1852,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 509729081}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1.4, y: -0.3, z: 0}
+  m_LocalPosition: {x: -3.26, y: 12.57, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 946060331842317327}
@@ -3746,6 +3746,31 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d35ae5571f88e384e8fcf6e2a91faf96, type: 3}
+--- !u!1 &949796266 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1117614788494437744, guid: 6fa37b48ff75e704890cf5b3ff101325,
+    type: 3}
+  m_PrefabInstance: {fileID: 1431422660}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &949796268
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 949796266}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 431f1cae467a17f4aad22031d1806385, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  soundTrigger: {fileID: 949796269}
+--- !u!82 &949796269 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 5909293291270329310, guid: 6fa37b48ff75e704890cf5b3ff101325,
+    type: 3}
+  m_PrefabInstance: {fileID: 1431422660}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &952847645 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 839868904343577889, guid: 4842564a8fea9d84c8d59a53697301fe,
@@ -5599,6 +5624,26 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1040811625}
     m_Modifications:
+    - target: {fileID: 1458376275343669830, guid: 6fa37b48ff75e704890cf5b3ff101325,
+        type: 3}
+      propertyPath: m_Size.y
+      value: 0.9933591
+      objectReference: {fileID: 0}
+    - target: {fileID: 1458376275343669830, guid: 6fa37b48ff75e704890cf5b3ff101325,
+        type: 3}
+      propertyPath: m_Offset.y
+      value: 0.0033204556
+      objectReference: {fileID: 0}
+    - target: {fileID: 5527249985883119395, guid: 6fa37b48ff75e704890cf5b3ff101325,
+        type: 3}
+      propertyPath: m_Size.y
+      value: 76.16736
+      objectReference: {fileID: 0}
+    - target: {fileID: 5527249985883119395, guid: 6fa37b48ff75e704890cf5b3ff101325,
+        type: 3}
+      propertyPath: m_Offset.y
+      value: -9.5536785
+      objectReference: {fileID: 0}
     - target: {fileID: 5741317232796530697, guid: 6fa37b48ff75e704890cf5b3ff101325,
         type: 3}
       propertyPath: m_LocalScale.x
@@ -5717,19 +5762,20 @@ PrefabInstance:
     - target: {fileID: 7964232900455486059, guid: 6fa37b48ff75e704890cf5b3ff101325,
         type: 3}
       propertyPath: m_Size.y
-      value: 128.53828
+      value: 130.76837
       objectReference: {fileID: 0}
     - target: {fileID: 7964232900455486059, guid: 6fa37b48ff75e704890cf5b3ff101325,
         type: 3}
       propertyPath: m_Offset.y
-      value: -11.369141
+      value: -12.484186
       objectReference: {fileID: 0}
     - target: {fileID: 7964232900455486063, guid: 6fa37b48ff75e704890cf5b3ff101325,
         type: 3}
       propertyPath: m_Name
       value: SisterAgatha
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 8158358286937254879, guid: 6fa37b48ff75e704890cf5b3ff101325, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 6fa37b48ff75e704890cf5b3ff101325, type: 3}
 --- !u!1 &1453557887
 GameObject:
