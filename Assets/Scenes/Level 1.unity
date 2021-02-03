@@ -5641,12 +5641,12 @@ PrefabInstance:
         type: 3}
       propertyPath: notes.Array.data[0]
       value: 
-      objectReference: {fileID: 1456591501}
+      objectReference: {fileID: 1456591500}
     - target: {fileID: 1606162807500972281, guid: 4842564a8fea9d84c8d59a53697301fe,
         type: 3}
       propertyPath: notes.Array.data[2]
       value: 
-      objectReference: {fileID: 1456591500}
+      objectReference: {fileID: 1456591501}
     - target: {fileID: 4165242120121845015, guid: 4842564a8fea9d84c8d59a53697301fe,
         type: 3}
       propertyPath: m_IsActive
@@ -9102,6 +9102,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Simon
+      objectReference: {fileID: 0}
+    - target: {fileID: 4528450595191613291, guid: 61631f135ca0a7e44aeeb6a93c8c1fc6,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.03642836
       objectReference: {fileID: 0}
     - target: {fileID: 8745122054813973131, guid: 61631f135ca0a7e44aeeb6a93c8c1fc6,
         type: 3}

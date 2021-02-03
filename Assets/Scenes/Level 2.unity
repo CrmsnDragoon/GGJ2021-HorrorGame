@@ -1512,7 +1512,7 @@ PrefabInstance:
     - target: {fileID: 3295127127124088098, guid: 2ceed873befbd974380fd59cf6585405,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 22.71
+      value: 21.258
       objectReference: {fileID: 0}
     - target: {fileID: 3295127127124088098, guid: 2ceed873befbd974380fd59cf6585405,
         type: 3}
@@ -1573,6 +1573,11 @@ PrefabInstance:
         type: 3}
       propertyPath: isLevel2
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7254688641503174793, guid: 2ceed873befbd974380fd59cf6585405,
+        type: 3}
+      propertyPath: NoteIndex
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2ceed873befbd974380fd59cf6585405, type: 3}
@@ -1852,7 +1857,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 509729081}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1.28, y: -0.59, z: 0}
+  m_LocalPosition: {x: 1.28, y: 22.31, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 946060331842317327}
@@ -2897,6 +2902,12 @@ CanvasGroup:
   m_Interactable: 1
   m_BlocksRaycasts: 1
   m_IgnoreParentGroups: 0
+--- !u!1 &736007421 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2990763428835940689, guid: 4842564a8fea9d84c8d59a53697301fe,
+    type: 3}
+  m_PrefabInstance: {fileID: 1826431658}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &737843306 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8514797031686386809, guid: d35ae5571f88e384e8fcf6e2a91faf96,
@@ -4203,6 +4214,11 @@ PrefabInstance:
       propertyPath: isLevel2
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 7254688641503174793, guid: 2ceed873befbd974380fd59cf6585405,
+        type: 3}
+      propertyPath: NoteIndex
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2ceed873befbd974380fd59cf6585405, type: 3}
 --- !u!4 &1118289343 stripped
@@ -4363,22 +4379,22 @@ PrefabInstance:
     - target: {fileID: 8862976685249101766, guid: db5fe93668d9a0144bf89a38115843c0,
         type: 3}
       propertyPath: m_Size.x
-      value: 0.9452258
+      value: 0.91254115
       objectReference: {fileID: 0}
     - target: {fileID: 8862976685249101766, guid: db5fe93668d9a0144bf89a38115843c0,
         type: 3}
       propertyPath: m_Size.y
-      value: 0.5328102
+      value: 0.41553104
       objectReference: {fileID: 0}
     - target: {fileID: 8862976685249101766, guid: db5fe93668d9a0144bf89a38115843c0,
         type: 3}
       propertyPath: m_Offset.x
-      value: 0.18848708
+      value: 0.17214477
       objectReference: {fileID: 0}
     - target: {fileID: 8862976685249101766, guid: db5fe93668d9a0144bf89a38115843c0,
         type: 3}
       propertyPath: m_Offset.y
-      value: -0.008055091
+      value: 0.050584495
       objectReference: {fileID: 0}
     - target: {fileID: 8905569342637675127, guid: db5fe93668d9a0144bf89a38115843c0,
         type: 3}
@@ -5732,27 +5748,27 @@ PrefabInstance:
     - target: {fileID: 7964232900455486058, guid: 6fa37b48ff75e704890cf5b3ff101325,
         type: 3}
       propertyPath: positions.Array.data[0].x
-      value: -9.77397
+      value: -8.948912
       objectReference: {fileID: 0}
     - target: {fileID: 7964232900455486058, guid: 6fa37b48ff75e704890cf5b3ff101325,
         type: 3}
       propertyPath: positions.Array.data[0].y
-      value: -19.418869
+      value: -18.410461
       objectReference: {fileID: 0}
     - target: {fileID: 7964232900455486058, guid: 6fa37b48ff75e704890cf5b3ff101325,
         type: 3}
       propertyPath: positions.Array.data[1].x
-      value: -19.100021
+      value: -30.767538
       objectReference: {fileID: 0}
     - target: {fileID: 7964232900455486058, guid: 6fa37b48ff75e704890cf5b3ff101325,
         type: 3}
       propertyPath: positions.Array.data[1].y
-      value: -1.9051733
+      value: 0.287961
       objectReference: {fileID: 0}
     - target: {fileID: 7964232900455486058, guid: 6fa37b48ff75e704890cf5b3ff101325,
         type: 3}
       propertyPath: positions.Array.data[2].x
-      value: -7.8376684
+      value: -42.673645
       objectReference: {fileID: 0}
     - target: {fileID: 7964232900455486058, guid: 6fa37b48ff75e704890cf5b3ff101325,
         type: 3}
@@ -6145,6 +6161,11 @@ PrefabInstance:
         type: 3}
       propertyPath: isLevel2
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7254688641503174793, guid: 2ceed873befbd974380fd59cf6585405,
+        type: 3}
+      propertyPath: NoteIndex
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2ceed873befbd974380fd59cf6585405, type: 3}
@@ -7524,7 +7545,7 @@ PrefabInstance:
         type: 3}
       propertyPath: spritePerLine.Array.data[6]
       value: 
-      objectReference: {fileID: 21300000, guid: 2ffe4e8ecd24ffb4fbad848a1651bc84,
+      objectReference: {fileID: 21300000, guid: aba29c07c0dcee74888b4313ad2697f6,
         type: 3}
     - target: {fileID: 8900268334760262249, guid: 61631f135ca0a7e44aeeb6a93c8c1fc6,
         type: 3}
@@ -7536,13 +7557,13 @@ PrefabInstance:
         type: 3}
       propertyPath: spritePerLine.Array.data[8]
       value: 
-      objectReference: {fileID: 21300000, guid: aba29c07c0dcee74888b4313ad2697f6,
+      objectReference: {fileID: 21300000, guid: 9052cd741b5265445ba9fa9592913a58,
         type: 3}
     - target: {fileID: 8900268334760262249, guid: 61631f135ca0a7e44aeeb6a93c8c1fc6,
         type: 3}
       propertyPath: spritePerLine.Array.data[9]
       value: 
-      objectReference: {fileID: 21300000, guid: 9052cd741b5265445ba9fa9592913a58,
+      objectReference: {fileID: 21300000, guid: e34e9b78028ac9747948678bb4e7369c,
         type: 3}
     - target: {fileID: 8900268334760262249, guid: 61631f135ca0a7e44aeeb6a93c8c1fc6,
         type: 3}
@@ -7558,12 +7579,12 @@ PrefabInstance:
     - target: {fileID: 8900268334760262249, guid: 61631f135ca0a7e44aeeb6a93c8c1fc6,
         type: 3}
       propertyPath: dialoguesToDisplay.Array.data[0]
-      value: Hello again.
+      value: Hello.
       objectReference: {fileID: 0}
     - target: {fileID: 8900268334760262249, guid: 61631f135ca0a7e44aeeb6a93c8c1fc6,
         type: 3}
       propertyPath: dialoguesToDisplay.Array.data[1]
-      value: Hello.
+      value: Hi.
       objectReference: {fileID: 0}
     - target: {fileID: 8900268334760262249, guid: 61631f135ca0a7e44aeeb6a93c8c1fc6,
         type: 3}
@@ -7573,7 +7594,7 @@ PrefabInstance:
     - target: {fileID: 8900268334760262249, guid: 61631f135ca0a7e44aeeb6a93c8c1fc6,
         type: 3}
       propertyPath: dialoguesToDisplay.Array.data[3]
-      value: ' The clues about,'
+      value: The clues about,
       objectReference: {fileID: 0}
     - target: {fileID: 8900268334760262249, guid: 61631f135ca0a7e44aeeb6a93c8c1fc6,
         type: 3}
@@ -7583,32 +7604,32 @@ PrefabInstance:
     - target: {fileID: 8900268334760262249, guid: 61631f135ca0a7e44aeeb6a93c8c1fc6,
         type: 3}
       propertyPath: dialoguesToDisplay.Array.data[5]
-      value: have you found the four that have been lost?
+      value: Have you figured out the password yet?
       objectReference: {fileID: 0}
     - target: {fileID: 8900268334760262249, guid: 61631f135ca0a7e44aeeb6a93c8c1fc6,
         type: 3}
       propertyPath: dialoguesToDisplay.Array.data[6]
-      value: Not yet.
+      value: Password? Can you give me a clue?
       objectReference: {fileID: 0}
     - target: {fileID: 8900268334760262249, guid: 61631f135ca0a7e44aeeb6a93c8c1fc6,
         type: 3}
       propertyPath: dialoguesToDisplay.Array.data[7]
-      value: 'Have you figured out the word? '
-      objectReference: {fileID: 0}
-    - target: {fileID: 8900268334760262249, guid: 61631f135ca0a7e44aeeb6a93c8c1fc6,
-        type: 3}
-      propertyPath: dialoguesToDisplay.Array.data[8]
-      value: Can you give me a clue?
-      objectReference: {fileID: 0}
-    - target: {fileID: 8900268334760262249, guid: 61631f135ca0a7e44aeeb6a93c8c1fc6,
-        type: 3}
-      propertyPath: dialoguesToDisplay.Array.data[9]
       value: Some are framed.
       objectReference: {fileID: 0}
     - target: {fileID: 8900268334760262249, guid: 61631f135ca0a7e44aeeb6a93c8c1fc6,
         type: 3}
+      propertyPath: dialoguesToDisplay.Array.data[8]
+      value: Have you found the four that have been lost?
+      objectReference: {fileID: 0}
+    - target: {fileID: 8900268334760262249, guid: 61631f135ca0a7e44aeeb6a93c8c1fc6,
+        type: 3}
+      propertyPath: dialoguesToDisplay.Array.data[9]
+      value: Not yet.
+      objectReference: {fileID: 0}
+    - target: {fileID: 8900268334760262249, guid: 61631f135ca0a7e44aeeb6a93c8c1fc6,
+        type: 3}
       propertyPath: dialoguesToDisplay.Array.data[10]
-      value: Try again.
+      value: You'll need them to help us.
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 61631f135ca0a7e44aeeb6a93c8c1fc6, type: 3}
@@ -8251,6 +8272,46 @@ PrefabInstance:
         type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8199971247916619149, guid: 4842564a8fea9d84c8d59a53697301fe,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 8199971247916619149, guid: 4842564a8fea9d84c8d59a53697301fe,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[3].m_Mode
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 8199971247916619149, guid: 4842564a8fea9d84c8d59a53697301fe,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[3].m_Target
+      value: 
+      objectReference: {fileID: 736007421}
+    - target: {fileID: 8199971247916619149, guid: 4842564a8fea9d84c8d59a53697301fe,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[3].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8199971247916619149, guid: 4842564a8fea9d84c8d59a53697301fe,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[3].m_MethodName
+      value: SetActive
+      objectReference: {fileID: 0}
+    - target: {fileID: 8199971247916619149, guid: 4842564a8fea9d84c8d59a53697301fe,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_BoolArgument
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8199971247916619149, guid: 4842564a8fea9d84c8d59a53697301fe,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[3].m_Arguments.m_BoolArgument
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8199971247916619149, guid: 4842564a8fea9d84c8d59a53697301fe,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[3].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4842564a8fea9d84c8d59a53697301fe, type: 3}
