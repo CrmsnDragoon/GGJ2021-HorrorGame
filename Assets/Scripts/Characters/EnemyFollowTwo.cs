@@ -1,4 +1,6 @@
-﻿using UnityEngine;
+﻿using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
 
 public class EnemyFollowTwo : MonoBehaviour
 {
@@ -48,8 +50,15 @@ public class EnemyFollowTwo : MonoBehaviour
     {
         if (soundTimer < 0 && other.gameObject.CompareTag("Player"))
         {
-            giggle.Play();
+            StartCoroutine(giggleMoment());
             soundTimer = soundLength;
         }
+    }
+
+    IEnumerator giggleMoment()
+    {
+        giggle.Play();
+        SubtitleController.Instance.ShowSubtitle("Maggie: *Ghostly giggle*", 1);
+        yield return new WaitForSeconds(1);
     }
 }

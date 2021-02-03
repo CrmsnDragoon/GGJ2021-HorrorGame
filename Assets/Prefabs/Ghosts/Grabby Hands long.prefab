@@ -11,9 +11,9 @@ GameObject:
   - component: {fileID: 691569832139584276}
   - component: {fileID: 691569832139584264}
   - component: {fileID: 691569832139584267}
-  - component: {fileID: 691569832139584266}
   - component: {fileID: 691569832139584277}
   - component: {fileID: 691569832139584265}
+  - component: {fileID: 6139779543790342321}
   m_Layer: 0
   m_Name: Grabby Hands long
   m_TagString: Untagged
@@ -105,20 +105,6 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!114 &691569832139584266
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 691569832139584279}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: baa4ecd9c94130f49b0a1d8db6012e69, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  FranksBros: {fileID: 691569832139584279}
-  growl: {fileID: 691569832139584277}
 --- !u!82 &691569832139584277
 AudioSource:
   m_ObjectHideFlags: 0
@@ -241,3 +227,16 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1.1445532, y: 1.4082212}
   m_EdgeRadius: 0
+--- !u!114 &6139779543790342321
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 691569832139584279}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1186832e4c2e95b49bb5517f79ffa450, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  growl: {fileID: 691569832139584277}
