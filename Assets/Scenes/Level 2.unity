@@ -1579,6 +1579,11 @@ PrefabInstance:
       propertyPath: NoteIndex
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 7254688641503174793, guid: 2ceed873befbd974380fd59cf6585405,
+        type: 3}
+      propertyPath: isSimonsNote
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2ceed873befbd974380fd59cf6585405, type: 3}
 --- !u!4 &414818289 stripped
@@ -1857,7 +1862,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 509729081}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1.28, y: 22.31, z: 0}
+  m_LocalPosition: {x: 1.28, y: -0.52, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 946060331842317327}
@@ -8262,6 +8267,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4408929027758238015, guid: 4842564a8fea9d84c8d59a53697301fe,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5353425423141501837, guid: 4842564a8fea9d84c8d59a53697301fe,
         type: 3}
